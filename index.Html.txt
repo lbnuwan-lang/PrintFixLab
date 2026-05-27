@@ -1,0 +1,2115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="PrintFixLab - Professional printer troubleshooting, driver downloads, resetter tools, and technical solutions for Epson, HP, Canon printers.">
+<meta name="keywords" content="printer fix, Epson resetter, printer drivers, Windows fixes, firmware updates, printer troubleshooting">
+<meta name="author" content="PrintFixLab">
+<meta property="og:title" content="PrintFixLab - Printer Solutions & Technical Downloads">
+<meta property="og:description" content="Fix printer errors, download drivers, and get expert troubleshooting guides.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://printfixlab.com">
+<meta property="og:image" content="https://printfixlab.com/assets/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="canonical" href="https://printfixlab.com">
+<title>PrintFixLab - Printer Solutions, Drivers & Technical Downloads</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "PrintFixLab",
+  "url": "https://printfixlab.com",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://printfixlab.com/search?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "PrintFixLab",
+  "url": "https://printfixlab.com",
+  "logo": "https://printfixlab.com/assets/logo.png",
+  "sameAs": [
+    "https://youtube.com/printfixlab",
+    "https://twitter.com/printfixlab",
+    "https://facebook.com/printfixlab"
+  ]
+}
+</script>
+<style>
+:root {
+  --primary: #2563eb;
+  --primary-dark: #1d4ed8;
+  --primary-light: #3b82f6;
+  --accent: #f59e0b;
+  --accent-hover: #d97706;
+  --dark: #0f172a;
+  --dark-light: #1e293b;
+  --dark-lighter: #334155;
+  --white: #ffffff;
+  --gray-50: #f8fafc;
+  --gray-100: #f1f5f9;
+  --gray-200: #e2e8f0;
+  --gray-300: #cbd5e1;
+  --gray-400: #94a3b8;
+  --gray-500: #64748b;
+  --gray-600: #475569;
+  --gray-700: #334155;
+  --gray-800: #1e293b;
+  --gray-900: #0f172a;
+  --success: #10b981;
+  --warning: #f59e0b;
+  --danger: #ef4444;
+  --info: #06b6d4;
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 16px;
+  --radius-xl: 24px;
+  --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  --shadow-xl: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+  --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; font-size: 16px; }
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  background: var(--gray-50);
+  color: var(--gray-800);
+  line-height: 1.6;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+::-webkit-scrollbar { width: 8px; }
+::-webkit-scrollbar-track { background: var(--gray-100); }
+::-webkit-scrollbar-thumb { background: var(--gray-400); border-radius: 4px; }
+::-webkit-scrollbar-thumb:hover { background: var(--gray-500); }
+h1, h2, h3, h4, h5, h6 { font-weight: 700; line-height: 1.2; color: var(--dark); }
+a { text-decoration: none; color: inherit; transition: var(--transition); }
+img { max-width: 100%; height: auto; display: block; }
+button { cursor: pointer; border: none; background: none; font-family: inherit; }
+.container { max-width: 1280px; margin: 0 auto; padding: 0 20px; }
+.section-padding { padding: 80px 0; }
+.section-header { text-align: center; margin-bottom: 48px; }
+.section-header h2 { font-size: 2.25rem; margin-bottom: 12px; color: var(--dark); }
+.section-header p { font-size: 1.125rem; color: var(--gray-500); max-width: 600px; margin: 0 auto; }
+.badge {
+  display: inline-flex; align-items: center; gap: 4px;
+  padding: 4px 12px; border-radius: 9999px;
+  font-size: 0.75rem; font-weight: 600;
+  text-transform: uppercase; letter-spacing: 0.05em;
+}
+.badge-primary { background: rgba(37, 99, 235, 0.1); color: var(--primary); }
+.badge-success { background: rgba(16, 185, 129, 0.1); color: var(--success); }
+.badge-warning { background: rgba(245, 158, 11, 0.1); color: var(--warning); }
+.badge-danger { background: rgba(239, 68, 68, 0.1); color: var(--danger); }
+.badge-dark { background: var(--dark); color: var(--white); }
+.btn {
+  display: inline-flex; align-items: center; justify-content: center; gap: 8px;
+  padding: 12px 28px; border-radius: var(--radius-md);
+  font-weight: 600; font-size: 0.9375rem;
+  transition: var(--transition); cursor: pointer; border: none;
+}
+.btn-primary { background: var(--primary); color: var(--white); box-shadow: 0 4px 14px rgba(37, 99, 235, 0.3); }
+.btn-primary:hover { background: var(--primary-dark); transform: translateY(-2px); box-shadow: 0 6px 20px rgba(37, 99, 235, 0.4); }
+.btn-accent { background: var(--accent); color: var(--white); box-shadow: 0 4px 14px rgba(245, 158, 11, 0.3); }
+.btn-accent:hover { background: var(--accent-hover); transform: translateY(-2px); box-shadow: 0 6px 20px rgba(245, 158, 11, 0.4); }
+.btn-dark { background: var(--dark); color: var(--white); }
+.btn-dark:hover { background: var(--dark-light); transform: translateY(-2px); }
+.btn-outline { background: transparent; border: 2px solid var(--gray-200); color: var(--gray-700); }
+.btn-outline:hover { border-color: var(--primary); color: var(--primary); background: rgba(37, 99, 235, 0.05); }
+.btn-sm { padding: 8px 16px; font-size: 0.875rem; }
+.btn-lg { padding: 16px 36px; font-size: 1rem; }
+.card {
+  background: var(--white); border-radius: var(--radius-lg); overflow: hidden;
+  box-shadow: var(--shadow-sm); transition: var(--transition); border: 1px solid var(--gray-200);
+}
+.card:hover { box-shadow: var(--shadow-lg); transform: translateY(-4px); }
+.card-image { position: relative; overflow: hidden; aspect-ratio: 16/10; }
+.card-image img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.5s ease; }
+.card:hover .card-image img { transform: scale(1.05); }
+.card-content { padding: 24px; }
+.card-meta { display: flex; align-items: center; gap: 12px; margin-bottom: 12px; font-size: 0.8125rem; color: var(--gray-500); }
+.card-meta i { font-size: 0.75rem; }
+.card-title { font-size: 1.125rem; font-weight: 700; margin-bottom: 8px; color: var(--dark); line-height: 1.3; }
+.card-title:hover { color: var(--primary); }
+.card-excerpt { font-size: 0.875rem; color: var(--gray-500); line-height: 1.6; margin-bottom: 16px; }
+.card-footer { display: flex; align-items: center; justify-content: space-between; padding-top: 16px; border-top: 1px solid var(--gray-100); }
+.card-author { display: flex; align-items: center; gap: 8px; }
+.card-author img { width: 28px; height: 28px; border-radius: 50%; object-fit: cover; }
+.card-author span { font-size: 0.8125rem; font-weight: 500; color: var(--gray-600); }
+.card-stats { display: flex; align-items: center; gap: 12px; font-size: 0.8125rem; color: var(--gray-400); }
+.download-card {
+  background: var(--white); border-radius: var(--radius-lg); padding: 28px;
+  border: 1px solid var(--gray-200); transition: var(--transition); position: relative; overflow: hidden;
+}
+.download-card::before { content: ''; position: absolute; top: 0; left: 0; width: 4px; height: 100%; background: var(--primary); transition: var(--transition); }
+.download-card:hover::before { width: 6px; }
+.download-card:hover { box-shadow: var(--shadow-lg); transform: translateY(-4px); }
+.download-card-header { display: flex; align-items: flex-start; gap: 16px; margin-bottom: 20px; }
+.download-icon { width: 56px; height: 56px; border-radius: var(--radius-md); background: rgba(37, 99, 235, 0.1); display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+.download-icon i { font-size: 1.5rem; color: var(--primary); }
+.download-info h3 { font-size: 1.125rem; margin-bottom: 4px; }
+.download-info p { font-size: 0.8125rem; color: var(--gray-500); }
+.download-meta { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 20px; }
+.download-meta span { font-size: 0.75rem; padding: 4px 10px; background: var(--gray-100); border-radius: var(--radius-sm); color: var(--gray-600); font-family: 'JetBrains Mono', monospace; }
+.download-actions { display: flex; gap: 8px; }
+.download-actions .btn { flex: 1; }
+.category-card {
+  background: var(--white); border-radius: var(--radius-lg); padding: 32px 24px;
+  text-align: center; border: 1px solid var(--gray-200); transition: var(--transition); cursor: pointer;
+}
+.category-card:hover { border-color: var(--primary); box-shadow: var(--shadow-lg); transform: translateY(-4px); }
+.category-icon { width: 64px; height: 64px; border-radius: var(--radius-lg); background: rgba(37, 99, 235, 0.1); display: flex; align-items: center; justify-content: center; margin: 0 auto 16px; transition: var(--transition); }
+.category-card:hover .category-icon { background: var(--primary); }
+.category-icon i { font-size: 1.75rem; color: var(--primary); transition: var(--transition); }
+.category-card:hover .category-icon i { color: var(--white); }
+.category-card h3 { font-size: 1.125rem; margin-bottom: 8px; }
+.category-card p { font-size: 0.875rem; color: var(--gray-500); margin-bottom: 12px; }
+.category-count { font-size: 0.8125rem; color: var(--primary); font-weight: 600; }
+.ad-placeholder {
+  background: var(--gray-100); border: 2px dashed var(--gray-300); border-radius: var(--radius-md);
+  padding: 40px; text-align: center; color: var(--gray-400); font-size: 0.875rem; margin: 24px 0;
+}
+.ad-placeholder span { display: block; font-weight: 600; margin-bottom: 4px; color: var(--gray-500); }
+.breadcrumb { background: var(--white); border-bottom: 1px solid var(--gray-200); padding: 16px 0; }
+.breadcrumb-inner { display: flex; align-items: center; gap: 8px; font-size: 0.875rem; color: var(--gray-500); }
+.breadcrumb-inner a { color: var(--gray-600); }
+.breadcrumb-inner a:hover { color: var(--primary); }
+.breadcrumb-inner .separator { color: var(--gray-400); }
+.breadcrumb-inner .current { color: var(--gray-800); font-weight: 500; }
+.social-share { display: flex; gap: 8px; }
+.social-share a { width: 36px; height: 36px; border-radius: var(--radius-sm); display: flex; align-items: center; justify-content: center; background: var(--gray-100); color: var(--gray-600); transition: var(--transition); }
+.social-share a:hover { transform: translateY(-2px); }
+.social-share a.facebook:hover { background: #1877f2; color: white; }
+.social-share a.twitter:hover { background: #1da1f2; color: white; }
+.social-share a.linkedin:hover { background: #0a66c2; color: white; }
+.social-share a.pinterest:hover { background: #bd081c; color: white; }
+.social-share a.whatsapp:hover { background: #25d366; color: white; }
+.widget { background: var(--white); border-radius: var(--radius-lg); padding: 24px; margin-bottom: 24px; border: 1px solid var(--gray-200); }
+.widget-title { font-size: 1rem; font-weight: 700; margin-bottom: 16px; padding-bottom: 12px; border-bottom: 2px solid var(--gray-100); display: flex; align-items: center; gap: 8px; }
+.widget-title i { color: var(--primary); }
+.widget-list { list-style: none; }
+.widget-list li { border-bottom: 1px solid var(--gray-100); }
+.widget-list li:last-child { border-bottom: none; }
+.widget-list a { display: flex; align-items: center; gap: 12px; padding: 12px 0; font-size: 0.875rem; color: var(--gray-700); }
+.widget-list a:hover { color: var(--primary); }
+.widget-list a img { width: 48px; height: 48px; border-radius: var(--radius-sm); object-fit: cover; flex-shrink: 0; }
+.widget-list a .post-info { flex: 1; }
+.widget-list a .post-info h4 { font-size: 0.875rem; font-weight: 600; margin-bottom: 2px; line-height: 1.4; }
+.widget-list a .post-info span { font-size: 0.75rem; color: var(--gray-400); }
+.faq-item { background: var(--white); border-radius: var(--radius-md); margin-bottom: 12px; border: 1px solid var(--gray-200); overflow: hidden; }
+.faq-question { display: flex; align-items: center; justify-content: space-between; padding: 20px 24px; cursor: pointer; font-weight: 600; font-size: 1rem; color: var(--dark); transition: var(--transition); }
+.faq-question:hover { background: var(--gray-50); }
+.faq-question i { transition: transform 0.3s ease; color: var(--primary); }
+.faq-item.active .faq-question i { transform: rotate(180deg); }
+.faq-answer { max-height: 0; overflow: hidden; transition: max-height 0.3s ease; }
+.faq-item.active .faq-answer { max-height: 500px; }
+.faq-answer-inner { padding: 0 24px 24px; color: var(--gray-600); font-size: 0.9375rem; line-height: 1.7; }
+.newsletter-section { background: var(--dark); position: relative; overflow: hidden; padding: 80px 0; }
+.newsletter-section::before { content: ''; position: absolute; top: -50%; right: -20%; width: 600px; height: 600px; background: radial-gradient(circle, rgba(37, 99, 235, 0.15) 0%, transparent 70%); border-radius: 50%; }
+.newsletter-section::after { content: ''; position: absolute; bottom: -50%; left: -20%; width: 500px; height: 500px; background: radial-gradient(circle, rgba(245, 158, 11, 0.1) 0%, transparent 70%); border-radius: 50%; }
+.newsletter-inner { position: relative; z-index: 1; text-align: center; max-width: 640px; margin: 0 auto; }
+.newsletter-inner h2 { color: var(--white); font-size: 2rem; margin-bottom: 12px; }
+.newsletter-inner p { color: var(--gray-400); margin-bottom: 32px; }
+.newsletter-form { display: flex; gap: 12px; max-width: 500px; margin: 0 auto; }
+.newsletter-form input { flex: 1; padding: 14px 20px; border-radius: var(--radius-md); border: 2px solid var(--dark-lighter); background: var(--dark-light); color: var(--white); font-size: 0.9375rem; outline: none; transition: var(--transition); }
+.newsletter-form input:focus { border-color: var(--primary); }
+.newsletter-form input::placeholder { color: var(--gray-500); }
+.footer { background: var(--dark); color: var(--gray-400); padding-top: 64px; }
+.footer-grid { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 48px; margin-bottom: 48px; }
+.footer-brand { max-width: 320px; }
+.footer-brand .logo { margin-bottom: 16px; }
+.footer-brand p { font-size: 0.875rem; line-height: 1.7; margin-bottom: 20px; }
+.footer-social { display: flex; gap: 12px; }
+.footer-social a { width: 36px; height: 36px; border-radius: var(--radius-sm); background: var(--dark-light); display: flex; align-items: center; justify-content: center; color: var(--gray-400); transition: var(--transition); }
+.footer-social a:hover { background: var(--primary); color: var(--white); transform: translateY(-2px); }
+.footer-column h4 { color: var(--white); font-size: 1rem; margin-bottom: 20px; }
+.footer-column ul { list-style: none; }
+.footer-column li { margin-bottom: 10px; }
+.footer-column a { font-size: 0.875rem; color: var(--gray-400); transition: var(--transition); }
+.footer-column a:hover { color: var(--primary); padding-left: 4px; }
+.footer-bottom { border-top: 1px solid var(--dark-lighter); padding: 24px 0; display: flex; align-items: center; justify-content: space-between; font-size: 0.8125rem; }
+.footer-bottom-links { display: flex; gap: 24px; }
+.footer-bottom-links a { color: var(--gray-500); }
+.footer-bottom-links a:hover { color: var(--primary); }
+.logo { display: flex; align-items: center; gap: 10px; }
+.logo-icon { width: 40px; height: 40px; background: var(--primary); border-radius: var(--radius-md); display: flex; align-items: center; justify-content: center; position: relative; }
+.logo-icon::before { content: ''; position: absolute; width: 16px; height: 16px; background: var(--white); border-radius: 2px; top: 8px; left: 8px; }
+.logo-icon::after { content: ''; position: absolute; width: 10px; height: 10px; background: var(--accent); border-radius: 50%; bottom: 8px; right: 8px; }
+.logo-text { font-weight: 800; font-size: 1.5rem; color: var(--dark); letter-spacing: -0.02em; }
+.logo-text span { color: var(--primary); }
+.navbar { position: sticky; top: 0; z-index: 1000; background: rgba(255, 255, 255, 0.95); backdrop-filter: blur(12px); border-bottom: 1px solid var(--gray-200); transition: var(--transition); }
+.navbar.scrolled { box-shadow: var(--shadow-md); }
+.navbar-inner { display: flex; align-items: center; justify-content: space-between; height: 72px; }
+.nav-links { display: flex; align-items: center; gap: 32px; }
+.nav-links a { font-size: 0.9375rem; font-weight: 500; color: var(--gray-700); position: relative; }
+.nav-links a::after { content: ''; position: absolute; bottom: -4px; left: 0; width: 0; height: 2px; background: var(--primary); transition: var(--transition); }
+.nav-links a:hover { color: var(--primary); }
+.nav-links a:hover::after { width: 100%; }
+.nav-actions { display: flex; align-items: center; gap: 16px; }
+.search-toggle { width: 40px; height: 40px; border-radius: var(--radius-md); display: flex; align-items: center; justify-content: center; color: var(--gray-600); background: var(--gray-100); transition: var(--transition); }
+.search-toggle:hover { background: var(--primary); color: var(--white); }
+.mobile-menu-btn { display: none; width: 40px; height: 40px; align-items: center; justify-content: center; color: var(--gray-700); font-size: 1.25rem; }
+.search-overlay { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(15, 23, 42, 0.9); backdrop-filter: blur(8px); z-index: 2000; display: flex; align-items: flex-start; justify-content: center; padding-top: 120px; opacity: 0; visibility: hidden; transition: var(--transition); }
+.search-overlay.active { opacity: 1; visibility: visible; }
+.search-container { width: 100%; max-width: 700px; padding: 0 20px; }
+.search-box { background: var(--white); border-radius: var(--radius-xl); padding: 8px; display: flex; align-items: center; gap: 8px; box-shadow: var(--shadow-xl); }
+.search-box input { flex: 1; padding: 16px 20px; border: none; outline: none; font-size: 1.125rem; font-family: inherit; background: transparent; }
+.search-box button { padding: 14px 28px; background: var(--primary); color: var(--white); border-radius: var(--radius-lg); font-weight: 600; font-size: 0.9375rem; }
+.search-close { position: absolute; top: 32px; right: 32px; width: 48px; height: 48px; border-radius: 50%; background: rgba(255, 255, 255, 0.1); display: flex; align-items: center; justify-content: center; color: var(--white); font-size: 1.25rem; transition: var(--transition); }
+.search-close:hover { background: rgba(255, 255, 255, 0.2); }
+.mobile-menu { position: fixed; top: 0; right: -100%; width: 320px; height: 100%; background: var(--white); z-index: 2000; padding: 80px 24px 24px; transition: right 0.4s cubic-bezier(0.4, 0, 0.2, 1); box-shadow: -10px 0 30px rgba(0, 0, 0, 0.1); overflow-y: auto; }
+.mobile-menu.active { right: 0; }
+.mobile-menu-overlay { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.5); z-index: 1999; opacity: 0; visibility: hidden; transition: var(--transition); }
+.mobile-menu-overlay.active { opacity: 1; visibility: visible; }
+.mobile-menu-close { position: absolute; top: 24px; right: 24px; width: 40px; height: 40px; display: flex; align-items: center; justify-content: center; color: var(--gray-700); font-size: 1.25rem; }
+.mobile-menu-links { list-style: none; }
+.mobile-menu-links li { border-bottom: 1px solid var(--gray-100); }
+.mobile-menu-links a { display: block; padding: 16px 0; font-size: 1.125rem; font-weight: 600; color: var(--dark); }
+.mobile-menu-links a:hover { color: var(--primary); }
+.hero { background: var(--dark); position: relative; overflow: hidden; padding: 100px 0 80px; }
+.hero::before { content: ''; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: radial-gradient(ellipse at 20% 50%, rgba(37, 99, 235, 0.15) 0%, transparent 50%), radial-gradient(ellipse at 80% 50%, rgba(245, 158, 11, 0.08) 0%, transparent 50%); }
+.hero-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 60px; align-items: center; position: relative; z-index: 1; }
+.hero-content h1 { font-size: 3.5rem; font-weight: 800; color: var(--white); line-height: 1.1; margin-bottom: 20px; letter-spacing: -0.02em; }
+.hero-content h1 span { color: var(--primary-light); }
+.hero-content p { font-size: 1.125rem; color: var(--gray-400); margin-bottom: 32px; max-width: 500px; }
+.hero-search { background: var(--white); border-radius: var(--radius-xl); padding: 8px; display: flex; align-items: center; gap: 8px; box-shadow: var(--shadow-xl); max-width: 560px; }
+.hero-search input { flex: 1; padding: 16px 20px; border: none; outline: none; font-size: 1rem; font-family: inherit; background: transparent; }
+.hero-search button { padding: 14px 28px; background: var(--primary); color: var(--white); border-radius: var(--radius-lg); font-weight: 600; font-size: 0.9375rem; white-space: nowrap; }
+.hero-search button:hover { background: var(--primary-dark); }
+.hero-stats { display: flex; gap: 32px; margin-top: 40px; }
+.hero-stat { text-align: center; }
+.hero-stat-number { font-size: 2rem; font-weight: 800; color: var(--white); display: block; }
+.hero-stat-label { font-size: 0.8125rem; color: var(--gray-500); margin-top: 4px; }
+.hero-visual { position: relative; }
+.hero-image { border-radius: var(--radius-xl); overflow: hidden; box-shadow: var(--shadow-xl); position: relative; }
+.hero-image img { width: 100%; height: auto; }
+.floating-card { position: absolute; background: var(--white); border-radius: var(--radius-lg); padding: 16px 20px; box-shadow: var(--shadow-lg); display: flex; align-items: center; gap: 12px; animation: float 3s ease-in-out infinite; }
+.floating-card.card-1 { top: -20px; right: -20px; animation-delay: 0s; }
+.floating-card.card-2 { bottom: 40px; left: -30px; animation-delay: 1.5s; }
+.floating-card-icon { width: 44px; height: 44px; border-radius: var(--radius-md); background: rgba(37, 99, 235, 0.1); display: flex; align-items: center; justify-content: center; color: var(--primary); font-size: 1.25rem; }
+.floating-card-info h4 { font-size: 0.875rem; font-weight: 600; margin-bottom: 2px; }
+.floating-card-info span { font-size: 0.75rem; color: var(--gray-500); }
+@keyframes float { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-10px); } }
+.featured-fixes { background: var(--white); }
+.featured-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+.featured-card { position: relative; border-radius: var(--radius-lg); overflow: hidden; aspect-ratio: 4/3; }
+.featured-card img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.5s ease; }
+.featured-card:hover img { transform: scale(1.05); }
+.featured-card-overlay { position: absolute; bottom: 0; left: 0; width: 100%; padding: 24px; background: linear-gradient(to top, rgba(15, 23, 42, 0.95), transparent); }
+.featured-card-overlay .badge { margin-bottom: 8px; }
+.featured-card-overlay h3 { color: var(--white); font-size: 1.125rem; margin-bottom: 8px; }
+.featured-card-overlay p { color: var(--gray-400); font-size: 0.8125rem; }
+.trending-downloads { background: var(--gray-50); }
+.downloads-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+.latest-tutorials { background: var(--white); }
+.tutorials-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 24px; }
+.popular-models { background: var(--gray-50); }
+.models-grid { display: grid; grid-template-columns: repeat(6, 1fr); gap: 16px; }
+.model-card { background: var(--white); border-radius: var(--radius-lg); padding: 24px 16px; text-align: center; border: 1px solid var(--gray-200); transition: var(--transition); cursor: pointer; }
+.model-card:hover { border-color: var(--primary); box-shadow: var(--shadow-md); transform: translateY(-4px); }
+.model-card img { width: 80px; height: 80px; object-fit: contain; margin: 0 auto 12px; }
+.model-card h4 { font-size: 0.9375rem; margin-bottom: 4px; }
+.model-card span { font-size: 0.75rem; color: var(--gray-400); }
+.categories-section { background: var(--white); }
+.categories-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 24px; }
+.youtube-section { background: var(--dark); position: relative; overflow: hidden; }
+.youtube-section::before { content: ''; position: absolute; top: -100px; right: -100px; width: 400px; height: 400px; background: radial-gradient(circle, rgba(239, 68, 68, 0.1) 0%, transparent 70%); border-radius: 50%; }
+.youtube-section .section-header h2, .youtube-section .section-header p { color: var(--white); }
+.youtube-section .section-header p { color: var(--gray-400); }
+.youtube-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+.youtube-card { background: var(--dark-light); border-radius: var(--radius-lg); overflow: hidden; border: 1px solid var(--dark-lighter); transition: var(--transition); }
+.youtube-card:hover { border-color: var(--primary); transform: translateY(-4px); }
+.youtube-thumbnail { position: relative; aspect-ratio: 16/9; overflow: hidden; }
+.youtube-thumbnail img { width: 100%; height: 100%; object-fit: cover; }
+.youtube-play { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 60px; height: 60px; background: rgba(239, 68, 68, 0.9); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: var(--white); font-size: 1.5rem; transition: var(--transition); }
+.youtube-card:hover .youtube-play { background: #ff0000; transform: translate(-50%, -50%) scale(1.1); }
+.youtube-duration { position: absolute; bottom: 8px; right: 8px; background: rgba(0, 0, 0, 0.8); color: var(--white); padding: 2px 8px; border-radius: 4px; font-size: 0.75rem; font-weight: 600; font-family: 'JetBrains Mono', monospace; }
+.youtube-info { padding: 20px; }
+.youtube-info h3 { color: var(--white); font-size: 1rem; margin-bottom: 8px; line-height: 1.4; }
+.youtube-info p { color: var(--gray-500); font-size: 0.8125rem; }
+.faq-section { background: var(--gray-50); }
+.faq-grid { max-width: 800px; margin: 0 auto; }
+.blog-layout { display: grid; grid-template-columns: 1fr 340px; gap: 40px; padding: 40px 0; }
+.blog-main { min-width: 0; }
+.blog-sidebar { min-width: 0; }
+.blog-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 24px; }
+.single-post { padding: 40px 0; }
+.post-layout { display: grid; grid-template-columns: 1fr 340px; gap: 40px; }
+.post-header { margin-bottom: 32px; }
+.post-header .badge { margin-bottom: 16px; }
+.post-header h1 { font-size: 2.5rem; margin-bottom: 20px; line-height: 1.2; }
+.post-meta { display: flex; align-items: center; gap: 20px; flex-wrap: wrap; }
+.post-meta-item { display: flex; align-items: center; gap: 6px; font-size: 0.875rem; color: var(--gray-500); }
+.post-meta-item img { width: 32px; height: 32px; border-radius: 50%; object-fit: cover; }
+.post-featured-image { border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 32px; aspect-ratio: 16/9; }
+.post-featured-image img { width: 100%; height: 100%; object-fit: cover; }
+.post-content { font-size: 1.0625rem; line-height: 1.8; color: var(--gray-700); }
+.post-content h2 { font-size: 1.75rem; margin: 40px 0 20px; padding-bottom: 12px; border-bottom: 2px solid var(--gray-100); }
+.post-content h3 { font-size: 1.375rem; margin: 32px 0 16px; }
+.post-content p { margin-bottom: 20px; }
+.post-content ul, .post-content ol { margin-bottom: 20px; padding-left: 24px; }
+.post-content li { margin-bottom: 8px; }
+.post-content blockquote { background: var(--gray-100); border-left: 4px solid var(--primary); padding: 20px 24px; margin: 24px 0; border-radius: 0 var(--radius-md) var(--radius-md) 0; font-style: italic; color: var(--gray-600); }
+.post-content code { background: var(--gray-100); padding: 2px 8px; border-radius: 4px; font-family: 'JetBrains Mono', monospace; font-size: 0.875rem; color: var(--danger); }
+.post-content pre { background: var(--dark); color: var(--gray-300); padding: 20px; border-radius: var(--radius-md); overflow-x: auto; margin: 24px 0; }
+.post-content pre code { background: none; color: inherit; padding: 0; }
+.download-section { background: var(--gray-50); border-radius: var(--radius-lg); padding: 32px; margin: 32px 0; border: 2px solid var(--gray-200); }
+.download-section-header { display: flex; align-items: center; gap: 12px; margin-bottom: 20px; }
+.download-section-header i { font-size: 1.5rem; color: var(--primary); }
+.download-section-header h3 { font-size: 1.25rem; }
+.download-file { display: flex; align-items: center; justify-content: space-between; background: var(--white); padding: 20px 24px; border-radius: var(--radius-md); margin-bottom: 16px; border: 1px solid var(--gray-200); }
+.download-file-info { display: flex; align-items: center; gap: 16px; }
+.download-file-icon { width: 48px; height: 48px; border-radius: var(--radius-md); background: rgba(37, 99, 235, 0.1); display: flex; align-items: center; justify-content: center; color: var(--primary); font-size: 1.25rem; }
+.download-file-details h4 { font-size: 1rem; margin-bottom: 4px; }
+.download-file-details span { font-size: 0.8125rem; color: var(--gray-500); font-family: 'JetBrains Mono', monospace; }
+.post-tags { display: flex; flex-wrap: wrap; gap: 8px; margin: 32px 0; padding-top: 24px; border-top: 1px solid var(--gray-200); }
+.post-tag { padding: 6px 14px; background: var(--gray-100); border-radius: var(--radius-sm); font-size: 0.8125rem; color: var(--gray-600); font-weight: 500; transition: var(--transition); }
+.post-tag:hover { background: var(--primary); color: var(--white); }
+.post-share { display: flex; align-items: center; justify-content: space-between; padding: 24px 0; border-top: 1px solid var(--gray-200); border-bottom: 1px solid var(--gray-200); margin: 32px 0; }
+.post-share-label { font-weight: 600; color: var(--dark); }
+.related-posts { margin-top: 48px; }
+.related-posts h2 { font-size: 1.5rem; margin-bottom: 24px; }
+.downloads-page { padding: 40px 0; }
+.downloads-header { text-align: center; margin-bottom: 48px; }
+.downloads-header h1 { font-size: 2.5rem; margin-bottom: 12px; }
+.downloads-header p { color: var(--gray-500); font-size: 1.125rem; }
+.downloads-filter { display: flex; gap: 8px; margin-bottom: 32px; flex-wrap: wrap; }
+.filter-btn { padding: 8px 20px; border-radius: var(--radius-md); font-size: 0.875rem; font-weight: 500; background: var(--white); border: 1px solid var(--gray-200); color: var(--gray-600); transition: var(--transition); }
+.filter-btn:hover, .filter-btn.active { background: var(--primary); color: var(--white); border-color: var(--primary); }
+.categories-page { padding: 40px 0; }
+.categories-page-header { text-align: center; margin-bottom: 48px; }
+.categories-page-header h1 { font-size: 2.5rem; margin-bottom: 12px; }
+.categories-page-header p { color: var(--gray-500); font-size: 1.125rem; }
+.categories-page-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+.category-page-card { background: var(--white); border-radius: var(--radius-lg); overflow: hidden; border: 1px solid var(--gray-200); transition: var(--transition); }
+.category-page-card:hover { box-shadow: var(--shadow-lg); transform: translateY(-4px); }
+.category-page-card-image { aspect-ratio: 16/9; overflow: hidden; }
+.category-page-card-image img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.5s ease; }
+.category-page-card:hover .category-page-card-image img { transform: scale(1.05); }
+.category-page-card-content { padding: 24px; }
+.category-page-card-content h3 { font-size: 1.25rem; margin-bottom: 8px; }
+.category-page-card-content p { font-size: 0.875rem; color: var(--gray-500); margin-bottom: 16px; }
+.category-page-card-content .btn { width: 100%; }
+.about-page { padding: 40px 0; }
+.about-hero { text-align: center; margin-bottom: 64px; }
+.about-hero h1 { font-size: 2.5rem; margin-bottom: 16px; }
+.about-hero p { font-size: 1.125rem; color: var(--gray-500); max-width: 700px; margin: 0 auto; }
+.about-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 32px; margin-bottom: 64px; }
+.about-card { text-align: center; padding: 40px 24px; background: var(--white); border-radius: var(--radius-lg); border: 1px solid var(--gray-200); }
+.about-card-icon { width: 72px; height: 72px; border-radius: var(--radius-lg); background: rgba(37, 99, 235, 0.1); display: flex; align-items: center; justify-content: center; margin: 0 auto 20px; color: var(--primary); font-size: 2rem; }
+.about-card h3 { font-size: 1.25rem; margin-bottom: 12px; }
+.about-card p { font-size: 0.9375rem; color: var(--gray-500); }
+.team-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 24px; }
+.team-card { text-align: center; }
+.team-card img { width: 120px; height: 120px; border-radius: 50%; object-fit: cover; margin: 0 auto 16px; border: 4px solid var(--gray-100); }
+.team-card h4 { font-size: 1.125rem; margin-bottom: 4px; }
+.team-card span { font-size: 0.875rem; color: var(--gray-500); }
+.contact-page { padding: 40px 0; }
+.contact-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 48px; align-items: start; }
+.contact-info h2 { font-size: 2rem; margin-bottom: 16px; }
+.contact-info > p { color: var(--gray-500); margin-bottom: 32px; }
+.contact-item { display: flex; align-items: flex-start; gap: 16px; margin-bottom: 24px; }
+.contact-item-icon { width: 48px; height: 48px; border-radius: var(--radius-md); background: rgba(37, 99, 235, 0.1); display: flex; align-items: center; justify-content: center; color: var(--primary); font-size: 1.25rem; flex-shrink: 0; }
+.contact-item-info h4 { font-size: 1rem; margin-bottom: 4px; }
+.contact-item-info p { font-size: 0.875rem; color: var(--gray-500); }
+.contact-form { background: var(--white); border-radius: var(--radius-lg); padding: 40px; border: 1px solid var(--gray-200); }
+.contact-form h3 { font-size: 1.5rem; margin-bottom: 24px; }
+.form-group { margin-bottom: 20px; }
+.form-group label { display: block; font-size: 0.875rem; font-weight: 600; margin-bottom: 8px; color: var(--gray-700); }
+.form-group input, .form-group textarea, .form-group select { width: 100%; padding: 12px 16px; border: 2px solid var(--gray-200); border-radius: var(--radius-md); font-family: inherit; font-size: 0.9375rem; outline: none; transition: var(--transition); background: var(--white); }
+.form-group input:focus, .form-group textarea:focus, .form-group select:focus { border-color: var(--primary); }
+.form-group textarea { resize: vertical; min-height: 120px; }
+.legal-page { padding: 40px 0; max-width: 800px; margin: 0 auto; }
+.legal-page h1 { font-size: 2.5rem; margin-bottom: 24px; }
+.legal-page h2 { font-size: 1.5rem; margin: 32px 0 16px; padding-bottom: 8px; border-bottom: 2px solid var(--gray-100); }
+.legal-page p { margin-bottom: 16px; color: var(--gray-600); }
+.legal-page ul { margin-bottom: 16px; padding-left: 24px; color: var(--gray-600); }
+.legal-page li { margin-bottom: 8px; }
+.last-updated { display: inline-block; padding: 8px 16px; background: var(--gray-100); border-radius: var(--radius-sm); font-size: 0.8125rem; color: var(--gray-500); margin-bottom: 24px; }
+.fade-in { opacity: 0; transform: translateY(20px); transition: opacity 0.6s ease, transform 0.6s ease; }
+.fade-in.visible { opacity: 1; transform: translateY(0); }
+.toast { position: fixed; bottom: 24px; right: 24px; background: var(--dark); color: var(--white); padding: 16px 24px; border-radius: var(--radius-md); box-shadow: var(--shadow-xl); z-index: 3000; display: flex; align-items: center; gap: 12px; transform: translateX(120%); transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1); }
+.toast.show { transform: translateX(0); }
+.toast i { color: var(--success); }
+.page { display: none; animation: fadeIn 0.4s ease; }
+.page.active { display: block; }
+@keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+@media (max-width: 1024px) {
+  .hero-grid { grid-template-columns: 1fr; text-align: center; }
+  .hero-content p { margin-left: auto; margin-right: auto; }
+  .hero-search { margin: 0 auto; }
+  .hero-stats { justify-content: center; }
+  .hero-visual { display: none; }
+  .footer-grid { grid-template-columns: 1fr 1fr; }
+  .blog-layout, .post-layout { grid-template-columns: 1fr; }
+  .blog-sidebar, .post-sidebar { order: -1; }
+  .contact-grid { grid-template-columns: 1fr; }
+}
+@media (max-width: 768px) {
+  .section-padding { padding: 60px 0; }
+  .section-header h2 { font-size: 1.75rem; }
+  .hero { padding: 60px 0 50px; }
+  .hero-content h1 { font-size: 2.25rem; }
+  .featured-grid, .downloads-grid, .tutorials-grid, .categories-grid, .categories-page-grid, .youtube-grid, .blog-grid { grid-template-columns: 1fr; }
+  .models-grid { grid-template-columns: repeat(2, 1fr); }
+  .footer-grid { grid-template-columns: 1fr; }
+  .footer-bottom { flex-direction: column; gap: 12px; text-align: center; }
+  .nav-links { display: none; }
+  .mobile-menu-btn { display: flex; }
+  .newsletter-form { flex-direction: column; }
+  .post-header h1 { font-size: 1.75rem; }
+  .about-grid, .team-grid { grid-template-columns: 1fr; }
+  .downloads-filter { overflow-x: auto; flex-wrap: nowrap; padding-bottom: 8px; }
+}
+</style>
+<base target="_blank">
+</head>
+<body>
+<!-- Toast Notification -->
+<div class="toast" id="toast">
+  <i class="fas fa-check-circle"></i>
+  <span id="toast-message">Download started!</span>
+</div>
+
+<!-- Search Overlay -->
+<div class="search-overlay" id="searchOverlay">
+  <button class="search-close" onclick="closeSearch()"><i class="fas fa-times"></i></button>
+  <div class="search-container">
+    <div class="search-box">
+      <input type="text" placeholder="Search for printer fixes, drivers, resetters..." id="searchInput">
+      <button onclick="performSearch()"><i class="fas fa-search"></i> Search</button>
+    </div>
+  </div>
+</div>
+
+<!-- Mobile Menu -->
+<div class="mobile-menu-overlay" id="mobileMenuOverlay" onclick="closeMobileMenu()"></div>
+<div class="mobile-menu" id="mobileMenu">
+  <button class="mobile-menu-close" onclick="closeMobileMenu()"><i class="fas fa-times"></i></button>
+  <ul class="mobile-menu-links">
+    <li><a href="#" onclick="navigateTo('home'); closeMobileMenu(); return false;">Home</a></li>
+    <li><a href="#" onclick="navigateTo('blog'); closeMobileMenu(); return false;">Blog</a></li>
+    <li><a href="#" onclick="navigateTo('downloads'); closeMobileMenu(); return false;">Downloads</a></li>
+    <li><a href="#" onclick="navigateTo('categories'); closeMobileMenu(); return false;">Categories</a></li>
+    <li><a href="#" onclick="navigateTo('about'); closeMobileMenu(); return false;">About</a></li>
+    <li><a href="#" onclick="navigateTo('contact'); closeMobileMenu(); return false;">Contact</a></li>
+  </ul>
+</div>
+
+<!-- Navigation -->
+<nav class="navbar" id="navbar">
+  <div class="container navbar-inner">
+    <a href="#" class="logo" onclick="navigateTo('home'); return false;">
+      <div class="logo-icon"></div>
+      <div class="logo-text">Print<span>Fix</span>Lab</div>
+    </a>
+    <div class="nav-links">
+      <a href="#" onclick="navigateTo('home'); return false;">Home</a>
+      <a href="#" onclick="navigateTo('blog'); return false;">Blog</a>
+      <a href="#" onclick="navigateTo('downloads'); return false;">Downloads</a>
+      <a href="#" onclick="navigateTo('categories'); return false;">Categories</a>
+      <a href="#" onclick="navigateTo('about'); return false;">About</a>
+      <a href="#" onclick="navigateTo('contact'); return false;">Contact</a>
+    </div>
+    <div class="nav-actions">
+      <button class="search-toggle" onclick="openSearch()"><i class="fas fa-search"></i></button>
+      <button class="mobile-menu-btn" onclick="openMobileMenu()"><i class="fas fa-bars"></i></button>
+    </div>
+  </div>
+</nav>
+
+<!-- ==================== HOME PAGE ==================== -->
+<div class="page active" id="page-home">
+<!-- Hero Section -->
+<section class="hero">
+  <div class="container hero-grid">
+    <div class="hero-content">
+      <h1>Fix Your <span>Printer</span> Problems Fast</h1>
+      <p>Download drivers, resetters, and firmware. Get expert troubleshooting guides for Epson, HP, Canon and more.</p>
+      <div class="hero-search">
+        <input type="text" placeholder="Search printer model or error code..." id="heroSearchInput">
+        <button onclick="heroSearch()"><i class="fas fa-search"></i> Search</button>
+      </div>
+      <div class="hero-stats">
+        <div class="hero-stat">
+          <span class="hero-stat-number">500+</span>
+          <div class="hero-stat-label">Fixes &amp; Guides</div>
+        </div>
+        <div class="hero-stat">
+          <span class="hero-stat-number">120K+</span>
+          <div class="hero-stat-label">Downloads</div>
+        </div>
+        <div class="hero-stat">
+          <span class="hero-stat-number">50K+</span>
+          <div class="hero-stat-label">Happy Users</div>
+        </div>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="hero-image">
+        <img src="https://images.unsplash.com/photo-1612815154858-60aa4c43e64e?w=600&h=450&fit=crop" alt="Printer troubleshooting workspace">
+      </div>
+      <div class="floating-card card-1">
+        <div class="floating-card-icon"><i class="fas fa-check"></i></div>
+        <div class="floating-card-info">
+          <h4>Driver Updated</h4>
+          <span>Epson L3110</span>
+        </div>
+      </div>
+      <div class="floating-card card-2">
+        <div class="floating-card-icon"><i class="fas fa-download"></i></div>
+        <div class="floating-card-info">
+          <h4>Resetter Tool</h4>
+          <span>Downloaded 2.4K</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Featured Printer Fixes -->
+<section class="featured-fixes section-padding">
+  <div class="container">
+    <div class="section-header fade-in">
+      <h2>Featured Printer Fixes</h2>
+      <p>Most searched solutions this week</p>
+    </div>
+    <div class="featured-grid">
+      <div class="featured-card fade-in">
+        <img src="https://images.unsplash.com/photo-1569091791842-7cfb64e04797?w=400&h=300&fit=crop" alt="Epson printer error">
+        <div class="featured-card-overlay">
+          <span class="badge badge-danger">Hot Fix</span>
+          <h3>Fix Epson L3110 Service Required Error</h3>
+          <p>Step-by-step guide with resetter tool</p>
+        </div>
+      </div>
+      <div class="featured-card fade-in">
+        <img src="https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=400&h=300&fit=crop" alt="HP printer setup">
+        <div class="featured-card-overlay">
+          <span class="badge badge-primary">Driver</span>
+          <h3>HP LaserJet Pro M404dn Driver Install</h3>
+          <p>Windows 11 compatible drivers</p>
+        </div>
+      </div>
+      <div class="featured-card fade-in">
+        <img src="https://images.unsplash.com/photo-1589652717521-10c0d092dea9?w=400&h=300&fit=crop" alt="Canon printer maintenance">
+        <div class="featured-card-overlay">
+          <span class="badge badge-success">Guide</span>
+          <h3>Canon G2010 Waste Ink Pad Reset</h3>
+          <p>Complete maintenance tutorial</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Ad Placeholder -->
+<div class="container">
+  <div class="ad-placeholder">
+    <span>Advertisement</span>
+    AdSense Ready - 728x90 Leaderboard
+  </div>
+</div>
+
+<!-- Trending Downloads -->
+<section class="trending-downloads section-padding">
+  <div class="container">
+    <div class="section-header fade-in">
+      <h2>Trending Downloads</h2>
+      <p>Most downloaded tools this month</p>
+    </div>
+    <div class="downloads-grid">
+      <div class="download-card fade-in">
+        <div class="download-card-header">
+          <div class="download-icon"><i class="fas fa-wrench"></i></div>
+          <div class="download-info">
+            <h3>Epson L3110 Resetter</h3>
+            <p>Adjustment Program v4.30</p>
+          </div>
+        </div>
+        <div class="download-meta">
+          <span>v4.30</span><span>8.4 MB</span><span>Windows</span><span>24.5K DL</span>
+        </div>
+        <div class="download-actions">
+          <button class="btn btn-primary btn-sm" onclick="showToast('Epson L3110 Resetter download started!')"><i class="fas fa-download"></i> Download</button>
+          <button class="btn btn-outline btn-sm" onclick="navigateTo('single-post'); return false;"><i class="fas fa-info-circle"></i> Details</button>
+        </div>
+      </div>
+      <div class="download-card fade-in">
+        <div class="download-card-header">
+          <div class="download-icon"><i class="fas fa-print"></i></div>
+          <div class="download-info">
+            <h3>HP LaserJet P1102 Driver</h3>
+            <p>Full Feature Software</p>
+          </div>
+        </div>
+        <div class="download-meta">
+          <span>v5.0.1</span><span>45.2 MB</span><span>Win/Mac</span><span>18.2K DL</span>
+        </div>
+        <div class="download-actions">
+          <button class="btn btn-primary btn-sm" onclick="showToast('HP LaserJet P1102 Driver download started!')"><i class="fas fa-download"></i> Download</button>
+          <button class="btn btn-outline btn-sm"><i class="fas fa-info-circle"></i> Details</button>
+        </div>
+      </div>
+      <div class="download-card fade-in">
+        <div class="download-card-header">
+          <div class="download-icon"><i class="fas fa-microchip"></i></div>
+          <div class="download-info">
+            <h3>Canon G3010 Firmware</h3>
+            <p>Latest Update Package</p>
+          </div>
+        </div>
+        <div class="download-meta">
+          <span>v2.1.4</span><span>12.8 MB</span><span>Windows</span><span>9.1K DL</span>
+        </div>
+        <div class="download-actions">
+          <button class="btn btn-primary btn-sm" onclick="showToast('Canon G3010 Firmware download started!')"><i class="fas fa-download"></i> Download</button>
+          <button class="btn btn-outline btn-sm"><i class="fas fa-info-circle"></i> Details</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Latest Tutorials -->
+<section class="latest-tutorials section-padding">
+  <div class="container">
+    <div class="section-header fade-in">
+      <h2>Latest Tutorials</h2>
+      <p>Fresh troubleshooting guides and how-tos</p>
+    </div>
+    <div class="tutorials-grid">
+      <div class="card fade-in">
+        <div class="card-image">
+          <img src="https://images.unsplash.com/photo-1612815154858-60aa4c43e64e?w=400&h=250&fit=crop" alt="Epson printer tutorial">
+          <span class="badge badge-primary" style="position:absolute;top:12px;left:12px;">Tutorial</span>
+        </div>
+        <div class="card-content">
+          <div class="card-meta">
+            <span><i class="far fa-calendar"></i> May 25, 2026</span>
+            <span><i class="far fa-clock"></i> 8 min read</span>
+          </div>
+          <h3 class="card-title" onclick="navigateTo('single-post'); return false;">How to Fix Epson L3110 Red Light Blinking Error</h3>
+          <p class="card-excerpt">Complete step-by-step guide to resolve the service required error using the adjustment program resetter.</p>
+          <div class="card-footer">
+            <div class="card-author">
+              <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=50&h=50&fit=crop" alt="Author">
+              <span>James Wilson</span>
+            </div>
+            <div class="card-stats">
+              <span><i class="far fa-eye"></i> 4.2K</span>
+              <span><i class="far fa-comment"></i> 28</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card fade-in">
+        <div class="card-image">
+          <img src="https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=400&h=250&fit=crop" alt="HP printer setup">
+          <span class="badge badge-success" style="position:absolute;top:12px;left:12px;">Guide</span>
+        </div>
+        <div class="card-content">
+          <div class="card-meta">
+            <span><i class="far fa-calendar"></i> May 22, 2026</span>
+            <span><i class="far fa-clock"></i> 12 min read</span>
+          </div>
+          <h3 class="card-title">Windows 11 Printer Not Detected Fix</h3>
+          <p class="card-excerpt">Solve the common Windows 11 printer detection issue with these proven registry and driver fixes.</p>
+          <div class="card-footer">
+            <div class="card-author">
+              <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=50&h=50&fit=crop" alt="Author">
+              <span>Mike Chen</span>
+            </div>
+            <div class="card-stats">
+              <span><i class="far fa-eye"></i> 3.8K</span>
+              <span><i class="far fa-comment"></i> 45</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card fade-in">
+        <div class="card-image">
+          <img src="https://images.unsplash.com/photo-1589652717521-10c0d092dea9?w=400&h=250&fit=crop" alt="Canon printer">
+          <span class="badge badge-warning" style="position:absolute;top:12px;left:12px;">Fix</span>
+        </div>
+        <div class="card-content">
+          <div class="card-meta">
+            <span><i class="far fa-calendar"></i> May 20, 2026</span>
+            <span><i class="far fa-clock"></i> 6 min read</span>
+          </div>
+          <h3 class="card-title">Canon G2010 Paper Jam Error Code 1300 Fix</h3>
+          <p class="card-excerpt">Quick fix for the persistent paper jam error on Canon PIXMA G2010 series printers.</p>
+          <div class="card-footer">
+            <div class="card-author">
+              <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=50&h=50&fit=crop" alt="Author">
+              <span>Sarah Kim</span>
+            </div>
+            <div class="card-stats">
+              <span><i class="far fa-eye"></i> 2.9K</span>
+              <span><i class="far fa-comment"></i> 19</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card fade-in">
+        <div class="card-image">
+          <img src="https://images.unsplash.com/photo-1569091791842-7cfb64e04797?w=400&h=250&fit=crop" alt="Printing business">
+          <span class="badge badge-dark" style="position:absolute;top:12px;left:12px;">Business</span>
+        </div>
+        <div class="card-content">
+          <div class="card-meta">
+            <span><i class="far fa-calendar"></i> May 18, 2026</span>
+            <span><i class="far fa-clock"></i> 15 min read</span>
+          </div>
+          <h3 class="card-title">Start a Printing Business from Home in 2026</h3>
+          <p class="card-excerpt">Complete guide to launching a profitable home-based printing business with minimal investment.</p>
+          <div class="card-footer">
+            <div class="card-author">
+              <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=50&h=50&fit=crop" alt="Author">
+              <span>David Park</span>
+            </div>
+            <div class="card-stats">
+              <span><i class="far fa-eye"></i> 5.1K</span>
+              <span><i class="far fa-comment"></i> 62</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Popular Printer Models -->
+<section class="popular-models section-padding">
+  <div class="container">
+    <div class="section-header fade-in">
+      <h2>Popular Printer Models</h2>
+      <p>Find fixes and drivers for your specific model</p>
+    </div>
+    <div class="models-grid">
+      <div class="model-card fade-in">
+        <img src="https://images.unsplash.com/photo-1612815154858-60aa4c43e64e?w=80&h=80&fit=crop" alt="Epson L3110">
+        <h4>Epson L3110</h4>
+        <span>42 Guides</span>
+      </div>
+      <div class="model-card fade-in">
+        <img src="https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=80&h=80&fit=crop" alt="HP P1102">
+        <h4>HP P1102</h4>
+        <span>38 Guides</span>
+      </div>
+      <div class="model-card fade-in">
+        <img src="https://images.unsplash.com/photo-1589652717521-10c0d092dea9?w=80&h=80&fit=crop" alt="Canon G2010">
+        <h4>Canon G2010</h4>
+        <span>31 Guides</span>
+      </div>
+      <div class="model-card fade-in">
+        <img src="https://images.unsplash.com/photo-1569091791842-7cfb64e04797?w=80&h=80&fit=crop" alt="Epson L3150">
+        <h4>Epson L3150</h4>
+        <span>29 Guides</span>
+      </div>
+      <div class="model-card fade-in">
+        <img src="https://images.unsplash.com/photo-1612815154858-60aa4c43e64e?w=80&h=80&fit=crop" alt="Canon G3010">
+        <h4>Canon G3010</h4>
+        <span>25 Guides</span>
+      </div>
+      <div class="model-card fade-in">
+        <img src="https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=80&h=80&fit=crop" alt="HP M404dn">
+        <h4>HP M404dn</h4>
+        <span>22 Guides</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Ad Placeholder -->
+<div class="container">
+  <div class="ad-placeholder">
+    <span>Advertisement</span>
+    AdSense Ready - 300x250 Medium Rectangle
+  </div>
+</div>
+
+<!-- Categories Grid -->
+<section class="categories-section section-padding">
+  <div class="container">
+    <div class="section-header fade-in">
+      <h2>Browse by Category</h2>
+      <p>Find exactly what you need</p>
+    </div>
+    <div class="categories-grid">
+      <div class="category-card fade-in">
+        <div class="category-icon"><i class="fas fa-wrench"></i></div>
+        <h3>Epson Resetters</h3>
+        <p>Adjustment programs and reset tools</p>
+        <div class="category-count">86 Tools</div>
+      </div>
+      <div class="category-card fade-in">
+        <div class="category-icon"><i class="fas fa-download"></i></div>
+        <h3>Printer Drivers</h3>
+        <p>Official drivers for all brands</p>
+        <div class="category-count">234 Drivers</div>
+      </div>
+      <div class="category-card fade-in">
+        <div class="category-icon"><i class="fas fa-bug"></i></div>
+        <h3>Error Fixes</h3>
+        <p>Solutions for common errors</p>
+        <div class="category-count">156 Fixes</div>
+      </div>
+      <div class="category-card fade-in">
+        <div class="category-icon"><i class="fab fa-windows"></i></div>
+        <h3>Windows Fixes</h3>
+        <p>OS-level printer solutions</p>
+        <div class="category-count">78 Guides</div>
+      </div>
+      <div class="category-card fade-in">
+        <div class="category-icon"><i class="fas fa-briefcase"></i></div>
+        <h3>Business Guides</h3>
+        <p>Printing business tutorials</p>
+        <div class="category-count">42 Guides</div>
+      </div>
+      <div class="category-card fade-in">
+        <div class="category-icon"><i class="fas fa-tools"></i></div>
+        <h3>Software Tools</h3>
+        <p>Utility and diagnostic tools</p>
+        <div class="category-count">67 Tools</div>
+      </div>
+      <div class="category-card fade-in">
+        <div class="category-icon"><i class="fas fa-microchip"></i></div>
+        <h3>Firmware Updates</h3>
+        <p>Latest firmware packages</p>
+        <div class="category-count">53 Updates</div>
+      </div>
+      <div class="category-card fade-in">
+        <div class="category-icon"><i class="fas fa-book"></i></div>
+        <h3>Maintenance</h3>
+        <p>Cleaning and maintenance tips</p>
+        <div class="category-count">91 Tutorials</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- YouTube Section -->
+<section class="youtube-section section-padding">
+  <div class="container">
+    <div class="section-header fade-in">
+      <h2>Video Tutorials</h2>
+      <p>Watch step-by-step video guides on our YouTube channel</p>
+    </div>
+    <div class="youtube-grid">
+      <div class="youtube-card fade-in">
+        <div class="youtube-thumbnail">
+          <img src="https://images.unsplash.com/photo-1612815154858-60aa4c43e64e?w=400&h=225&fit=crop" alt="Video thumbnail">
+          <div class="youtube-play"><i class="fas fa-play"></i></div>
+          <span class="youtube-duration">12:34</span>
+        </div>
+        <div class="youtube-info">
+          <h3>Epson L3110 Resetter Complete Tutorial 2026</h3>
+          <p>24K views - 2 weeks ago</p>
+        </div>
+      </div>
+      <div class="youtube-card fade-in">
+        <div class="youtube-thumbnail">
+          <img src="https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=400&h=225&fit=crop" alt="Video thumbnail">
+          <div class="youtube-play"><i class="fas fa-play"></i></div>
+          <span class="youtube-duration">08:45</span>
+        </div>
+        <div class="youtube-info">
+          <h3>Fix Windows 11 Printer Spooler Error</h3>
+          <p>18K views - 1 month ago</p>
+        </div>
+      </div>
+      <div class="youtube-card fade-in">
+        <div class="youtube-thumbnail">
+          <img src="https://images.unsplash.com/photo-1589652717521-10c0d092dea9?w=400&h=225&fit=crop" alt="Video thumbnail">
+          <div class="youtube-play"><i class="fas fa-play"></i></div>
+          <span class="youtube-duration">15:20</span>
+        </div>
+        <div class="youtube-info">
+          <h3>Canon G2010 Deep Cleaning &amp; Maintenance</h3>
+          <p>12K views - 3 weeks ago</p>
+        </div>
+      </div>
+    </div>
+    <div style="text-align:center;margin-top:32px;">
+      <a href="https://youtube.com/printfixlab" target="_blank" class="btn btn-accent btn-lg"><i class="fab fa-youtube"></i> Subscribe to Channel</a>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ Section -->
+<section class="faq-section section-padding">
+  <div class="container">
+    <div class="section-header fade-in">
+      <h2>Frequently Asked Questions</h2>
+      <p>Quick answers to common printer problems</p>
+    </div>
+    <div class="faq-grid">
+      <div class="faq-item fade-in">
+        <div class="faq-question" onclick="toggleFaq(this)">
+          <span>What is an Epson adjustment program?</span>
+          <i class="fas fa-chevron-down"></i>
+        </div>
+        <div class="faq-answer">
+          <div class="faq-answer-inner">
+            An Epson Adjustment Program (also called a resetter) is a utility software designed to reset the waste ink pad counter on Epson inkjet printers. When your printer displays a "Service Required" or red light blinking error, it means the waste ink pad counter has reached its limit. The adjustment program resets this counter, allowing you to continue using your printer.
+          </div>
+        </div>
+      </div>
+      <div class="faq-item fade-in">
+        <div class="faq-question" onclick="toggleFaq(this)">
+          <span>Is it safe to download printer resetters from third-party sites?</span>
+          <i class="fas fa-chevron-down"></i>
+        </div>
+        <div class="faq-answer">
+          <div class="faq-answer-inner">
+            At PrintFixLab, we thoroughly scan all files with multiple antivirus engines before hosting them. However, we always recommend downloading official software from the manufacturer's website when available. Our resetters are sourced from verified community repositories and tested on actual hardware before publication.
+          </div>
+        </div>
+      </div>
+      <div class="faq-item fade-in">
+        <div class="faq-question" onclick="toggleFaq(this)">
+          <span>Why does my printer say "Service Required"?</span>
+          <i class="fas fa-chevron-down"></i>
+        </div>
+        <div class="faq-answer">
+          <div class="faq-answer-inner">
+            The "Service Required" error typically means your printer's waste ink pad counter has reached its maximum limit. This is a protective measure to prevent ink overflow. You can fix this by using an adjustment program to reset the counter, or by physically replacing/cleaning the waste ink pads. Our guides cover both methods in detail.
+          </div>
+        </div>
+      </div>
+      <div class="faq-item fade-in">
+        <div class="faq-question" onclick="toggleFaq(this)">
+          <span>How do I fix a paper jam that is not visible?</span>
+          <i class="fas fa-chevron-down"></i>
+        </div>
+        <div class="faq-answer">
+          <div class="faq-answer-inner">
+            For hidden paper jams, first power off and unplug the printer. Remove all paper trays and check the rear access door. Use a flashlight to inspect the paper path. Gently rotate the printer rollers by hand to dislodge stuck paper. If the error persists, check our model-specific guides for detailed disassembly instructions.
+          </div>
+        </div>
+      </div>
+      <div class="faq-item fade-in">
+        <div class="faq-question" onclick="toggleFaq(this)">
+          <span>Can I use a resetter on multiple computers?</span>
+          <i class="fas fa-chevron-down"></i>
+        </div>
+        <div class="faq-answer">
+          <div class="faq-answer-inner">
+            Most Epson adjustment programs are single-use or limited-use licenses. Once activated on a computer, they typically cannot be transferred. Some versions allow 1-3 resets before requiring reactivation. Always check the specific terms included with your resetter download. We recommend using the resetter on the computer you primarily use for printing.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Newsletter -->
+<section class="newsletter-section">
+  <div class="container">
+    <div class="newsletter-inner">
+      <h2>Get Printer Fixes Delivered</h2>
+      <p>Join 15,000+ subscribers who get weekly troubleshooting tips, new driver alerts, and exclusive resetter tools.</p>
+      <div class="newsletter-form">
+        <input type="email" placeholder="Enter your email address" id="newsletterEmail">
+        <button class="btn btn-primary" onclick="subscribeNewsletter()"><i class="fas fa-paper-plane"></i> Subscribe</button>
+      </div>
+    </div>
+  </div>
+</section>
+</div>
+
+<!-- ==================== BLOG PAGE ==================== -->
+<div class="page" id="page-blog">
+<div class="breadcrumb">
+  <div class="container">
+    <div class="breadcrumb-inner">
+      <a href="#" onclick="navigateTo('home'); return false;">Home</a>
+      <span class="separator"><i class="fas fa-chevron-right"></i></span>
+      <span class="current">Blog</span>
+    </div>
+  </div>
+</div>
+<div class="container blog-layout">
+  <div class="blog-main">
+    <div class="blog-grid">
+      <div class="card">
+        <div class="card-image">
+          <img src="https://images.unsplash.com/photo-1612815154858-60aa4c43e64e?w=400&h=250&fit=crop" alt="Epson resetter">
+          <span class="badge badge-primary" style="position:absolute;top:12px;left:12px;">Tutorial</span>
+        </div>
+        <div class="card-content">
+          <div class="card-meta">
+            <span><i class="far fa-calendar"></i> May 25, 2026</span>
+            <span><i class="far fa-clock"></i> 8 min</span>
+          </div>
+          <h3 class="card-title" onclick="navigateTo('single-post'); return false;">How to Fix Epson L3110 Red Light Blinking Error</h3>
+          <p class="card-excerpt">Complete step-by-step guide to resolve the service required error using the adjustment program resetter.</p>
+          <div class="card-footer">
+            <div class="card-author">
+              <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=50&h=50&fit=crop" alt="Author">
+              <span>James Wilson</span>
+            </div>
+            <div class="card-stats">
+              <span><i class="far fa-eye"></i> 4.2K</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-image">
+          <img src="https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=400&h=250&fit=crop" alt="Windows fix">
+          <span class="badge badge-success" style="position:absolute;top:12px;left:12px;">Guide</span>
+        </div>
+        <div class="card-content">
+          <div class="card-meta">
+            <span><i class="far fa-calendar"></i> May 22, 2026</span>
+            <span><i class="far fa-clock"></i> 12 min</span>
+          </div>
+          <h3 class="card-title">Windows 11 Printer Not Detected Fix</h3>
+          <p class="card-excerpt">Solve the common Windows 11 printer detection issue with these proven registry and driver fixes.</p>
+          <div class="card-footer">
+            <div class="card-author">
+              <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=50&h=50&fit=crop" alt="Author">
+              <span>Mike Chen</span>
+            </div>
+            <div class="card-stats">
+              <span><i class="far fa-eye"></i> 3.8K</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-image">
+          <img src="https://images.unsplash.com/photo-1589652717521-10c0d092dea9?w=400&h=250&fit=crop" alt="Canon fix">
+          <span class="badge badge-warning" style="position:absolute;top:12px;left:12px;">Fix</span>
+        </div>
+        <div class="card-content">
+          <div class="card-meta">
+            <span><i class="far fa-calendar"></i> May 20, 2026</span>
+            <span><i class="far fa-clock"></i> 6 min</span>
+          </div>
+          <h3 class="card-title">Canon G2010 Paper Jam Error Code 1300 Fix</h3>
+          <p class="card-excerpt">Quick fix for the persistent paper jam error on Canon PIXMA G2010 series printers.</p>
+          <div class="card-footer">
+            <div class="card-author">
+              <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=50&h=50&fit=crop" alt="Author">
+              <span>Sarah Kim</span>
+            </div>
+            <div class="card-stats">
+              <span><i class="far fa-eye"></i> 2.9K</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-image">
+          <img src="https://images.unsplash.com/photo-1569091791842-7cfb64e04797?w=400&h=250&fit=crop" alt="Business guide">
+          <span class="badge badge-dark" style="position:absolute;top:12px;left:12px;">Business</span>
+        </div>
+        <div class="card-content">
+          <div class="card-meta">
+            <span><i class="far fa-calendar"></i> May 18, 2026</span>
+            <span><i class="far fa-clock"></i> 15 min</span>
+          </div>
+          <h3 class="card-title">Start a Printing Business from Home in 2026</h3>
+          <p class="card-excerpt">Complete guide to launching a profitable home-based printing business with minimal investment.</p>
+          <div class="card-footer">
+            <div class="card-author">
+              <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=50&h=50&fit=crop" alt="Author">
+              <span>David Park</span>
+            </div>
+            <div class="card-stats">
+              <span><i class="far fa-eye"></i> 5.1K</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-image">
+          <img src="https://images.unsplash.com/photo-1612815154858-60aa4c43e64e?w=400&h=250&fit=crop" alt="Firmware">
+          <span class="badge badge-primary" style="position:absolute;top:12px;left:12px;">Firmware</span>
+        </div>
+        <div class="card-content">
+          <div class="card-meta">
+            <span><i class="far fa-calendar"></i> May 15, 2026</span>
+            <span><i class="far fa-clock"></i> 5 min</span>
+          </div>
+          <h3 class="card-title">Epson L3150 Latest Firmware Update Guide</h3>
+          <p class="card-excerpt">How to safely update your Epson L3150 firmware to fix connectivity and performance issues.</p>
+          <div class="card-footer">
+            <div class="card-author">
+              <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=50&h=50&fit=crop" alt="Author">
+              <span>James Wilson</span>
+            </div>
+            <div class="card-stats">
+              <span><i class="far fa-eye"></i> 3.2K</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-image">
+          <img src="https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=400&h=250&fit=crop" alt="Maintenance">
+          <span class="badge badge-success" style="position:absolute;top:12px;left:12px;">Maintenance</span>
+        </div>
+        <div class="card-content">
+          <div class="card-meta">
+            <span><i class="far fa-calendar"></i> May 12, 2026</span>
+            <span><i class="far fa-clock"></i> 10 min</span>
+          </div>
+          <h3 class="card-title">HP LaserJet Pro Deep Cleaning Tutorial</h3>
+          <p class="card-excerpt">Professional maintenance guide to extend your HP LaserJet printer lifespan by years.</p>
+          <div class="card-footer">
+            <div class="card-author">
+              <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=50&h=50&fit=crop" alt="Author">
+              <span>Mike Chen</span>
+            </div>
+            <div class="card-stats">
+              <span><i class="far fa-eye"></i> 2.7K</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div style="text-align:center;margin-top:40px;">
+      <button class="btn btn-outline btn-lg"><i class="fas fa-spinner"></i> Load More Articles</button>
+    </div>
+  </div>
+  <aside class="blog-sidebar">
+    <div class="widget">
+      <div class="widget-title"><i class="fas fa-fire"></i> Trending Now</div>
+      <ul class="widget-list">
+        <li><a href="#" onclick="navigateTo('single-post'); return false;">
+          <img src="https://images.unsplash.com/photo-1612815154858-60aa4c43e64e?w=100&h=100&fit=crop" alt="">
+          <div class="post-info">
+            <h4>Epson L3110 Service Required Fix</h4>
+            <span>4.2K views</span>
+          </div>
+        </a></li>
+        <li><a href="#">
+          <img src="https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=100&h=100&fit=crop" alt="">
+          <div class="post-info">
+            <h4>HP Printer Offline Fix</h4>
+            <span>3.8K views</span>
+          </div>
+        </a></li>
+        <li><a href="#">
+          <img src="https://images.unsplash.com/photo-1589652717521-10c0d092dea9?w=100&h=100&fit=crop" alt="">
+          <div class="post-info">
+            <h4>Canon Waste Ink Reset</h4>
+            <span>3.1K views</span>
+          </div>
+        </a></li>
+        <li><a href="#">
+          <img src="https://images.unsplash.com/photo-1569091791842-7cfb64e04797?w=100&h=100&fit=crop" alt="">
+          <div class="post-info">
+            <h4>Windows 11 Spooler Fix</h4>
+            <span>2.9K views</span>
+          </div>
+        </a></li>
+      </ul>
+    </div>
+    <div class="widget">
+      <div class="widget-title"><i class="fas fa-tags"></i> Popular Tags</div>
+      <div class="post-tags" style="margin:0;">
+        <span class="post-tag">Epson Resetter</span>
+        <span class="post-tag">HP Driver</span>
+        <span class="post-tag">Windows 11</span>
+        <span class="post-tag">Paper Jam</span>
+        <span class="post-tag">Firmware</span>
+        <span class="post-tag">Maintenance</span>
+        <span class="post-tag">Canon Fix</span>
+        <span class="post-tag">Business</span>
+      </div>
+    </div>
+    <div class="ad-placeholder" style="margin:0;">
+      <span>Ad Space</span>
+      300x250 AdSense
+    </div>
+  </aside>
+</div>
+</div>
+
+<!-- ==================== SINGLE POST PAGE ==================== -->
+<div class="page" id="page-single-post">
+<div class="breadcrumb">
+  <div class="container">
+    <div class="breadcrumb-inner">
+      <a href="#" onclick="navigateTo('home'); return false;">Home</a>
+      <span class="separator"><i class="fas fa-chevron-right"></i></span>
+      <a href="#" onclick="navigateTo('blog'); return false;">Blog</a>
+      <span class="separator"><i class="fas fa-chevron-right"></i></span>
+      <span class="current">Epson L3110 Fix</span>
+    </div>
+  </div>
+</div>
+<div class="container single-post">
+  <div class="post-layout">
+    <article class="post-main">
+      <div class="post-header">
+        <span class="badge badge-primary">Tutorial</span>
+        <h1>How to Fix Epson L3110 Red Light Blinking Error (Service Required)</h1>
+        <div class="post-meta">
+          <div class="post-meta-item">
+            <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=50&h=50&fit=crop" alt="Author">
+            <span><strong>James Wilson</strong></span>
+          </div>
+          <div class="post-meta-item"><i class="far fa-calendar"></i> May 25, 2026</div>
+          <div class="post-meta-item"><i class="far fa-clock"></i> 8 min read</div>
+          <div class="post-meta-item"><i class="far fa-eye"></i> 4,231 views</div>
+          <div class="post-meta-item"><i class="far fa-comment"></i> 28 comments</div>
+        </div>
+      </div>
+      <div class="post-featured-image">
+        <img src="https://images.unsplash.com/photo-1612815154858-60aa4c43e64e?w=800&h=450&fit=crop" alt="Epson L3110 printer">
+      </div>
+      <div class="post-content">
+        <p><strong>If your Epson L3110 printer is showing a red light blinking error or a "Service Required" message on your computer screen, do not panic.</strong> This is one of the most common issues with Epson EcoTank printers, and it can be fixed in under 10 minutes using the official Epson Adjustment Program (resetter tool).</p>
+
+        <p>In this comprehensive guide, we will walk you through the exact steps to reset your Epson L3110 waste ink pad counter, download the correct resetter tool, and prevent this error from happening again.</p>
+
+        <h2>What Causes the Epson L3110 Service Required Error?</h2>
+        <p>The "Service Required" error on Epson printers is triggered when the internal waste ink pad counter reaches its programmed limit. Here is what happens:</p>
+        <ul>
+          <li><strong>Waste Ink Pads:</strong> These pads absorb excess ink during cleaning cycles and printing.</li>
+          <li><strong>Counter Limit:</strong> Epson printers track how much ink has been absorbed and trigger an error when the estimated limit is reached.</li>
+          <li><strong>Red Light Blinking:</strong> The physical indicator that the counter has hit its maximum value.</li>
+        </ul>
+        <blockquote>
+          Important: The waste ink pads may not actually be full. The error is based on an estimated counter, not a physical sensor. This is why resetting the counter often resolves the issue immediately.
+        </blockquote>
+
+        <h2>Prerequisites Before You Begin</h2>
+        <p>Before downloading and running the resetter, ensure you have the following:</p>
+        <ol>
+          <li>A Windows PC (Windows 7, 8, 10, or 11)</li>
+          <li>USB cable connected to your Epson L3110</li>
+          <li>Printer powered on and recognized by Windows</li>
+          <li>Administrator access on your computer</li>
+          <li>Antivirus temporarily disabled (some resetters trigger false positives)</li>
+        </ol>
+
+        <h2>Download Section</h2>
+        <div class="download-section">
+          <div class="download-section-header">
+            <i class="fas fa-download"></i>
+            <h3>Required Files</h3>
+          </div>
+          <div class="download-file">
+            <div class="download-file-info">
+              <div class="download-file-icon"><i class="fas fa-wrench"></i></div>
+              <div class="download-file-details">
+                <h4>Epson L3110 Adjustment Program v4.30</h4>
+                <span>8.4 MB | ZIP | Windows</span>
+              </div>
+            </div>
+            <button class="btn btn-primary btn-sm" onclick="showToast('Download started!')"><i class="fas fa-download"></i> Download</button>
+          </div>
+          <div class="download-file">
+            <div class="download-file-info">
+              <div class="download-file-icon"><i class="fas fa-file-pdf"></i></div>
+              <div class="download-file-details">
+                <h4>Step-by-Step PDF Guide</h4>
+                <span>2.1 MB | PDF | Universal</span>
+              </div>
+            </div>
+            <button class="btn btn-primary btn-sm" onclick="showToast('PDF download started!')"><i class="fas fa-download"></i> Download</button>
+          </div>
+          <p style="font-size:0.8125rem;color:var(--gray-500);margin-top:12px;"><i class="fas fa-shield-alt"></i> All files scanned with VirusTotal. MD5: a3f7c2d9e1b4...</p>
+        </div>
+
+        <h2>Step-by-Step Reset Instructions</h2>
+        <h3>Step 1: Extract the Resetter</h3>
+        <p>Download the ZIP file and extract it to a folder on your Desktop. You will see the <code>AdjProg.exe</code> file along with supporting DLL files. Do not move or delete any of the accompanying files.</p>
+
+        <h3>Step 2: Run as Administrator</h3>
+        <p>Right-click on <code>AdjProg.exe</code> and select <strong>Run as administrator</strong>. This is crucial for the program to communicate with your printer at the system level.</p>
+
+        <h3>Step 3: Select Your Printer</h3>
+        <p>In the adjustment program window:</p>
+        <ol>
+          <li>Click <strong>Particular adjustment mode</strong></li>
+          <li>Select <strong>Waste ink pad counter</strong> from the list</li>
+          <li>Click <strong>OK</strong></li>
+        </ol>
+
+        <h3>Step 4: Reset the Counter</h3>
+        <p>Check the box for <strong>Main pad counter</strong> and click <strong>Check</strong> to see the current value. Then click <strong>Initialization</strong> to reset it to zero. You should see a success message.</p>
+
+        <h3>Step 5: Restart Your Printer</h3>
+        <p>Power off your Epson L3110, wait 10 seconds, and power it back on. The red light should be gone, and your printer should function normally.</p>
+
+        <pre><code>// Quick Command Reference
+1. Run AdjProg.exe as Admin
+2. Select "Particular adjustment mode"
+3. Choose "Waste ink pad counter"
+4. Check "Main pad counter"
+5. Click "Initialization"
+6. Restart printer</code></pre>
+
+        <h2>Troubleshooting Common Issues</h2>
+        <p>If the resetter does not detect your printer:</p>
+        <ul>
+          <li>Ensure the USB cable is directly connected (avoid USB hubs)</li>
+          <li>Install the official Epson L3110 driver first</li>
+          <li>Try a different USB port</li>
+          <li>Disable Windows Defender temporarily</li>
+          <li>Run the program in Windows 7 compatibility mode</li>
+        </ul>
+
+        <h2>Preventing Future Errors</h2>
+        <p>To avoid the Service Required error in the future:</p>
+        <ul>
+          <li>Install an external waste ink tank (modification guide available)</li>
+          <li>Reduce unnecessary cleaning cycles</li>
+          <li>Print regularly to prevent dried ink buildup</li>
+          <li>Monitor ink levels and avoid running cartridges completely dry</li>
+        </ul>
+      </div>
+
+      <div class="post-tags">
+        <span class="post-tag">Epson L3110</span>
+        <span class="post-tag">Resetter</span>
+        <span class="post-tag">Service Required</span>
+        <span class="post-tag">Waste Ink Pad</span>
+        <span class="post-tag">Adjustment Program</span>
+        <span class="post-tag">Red Light Blinking</span>
+        <span class="post-tag">Printer Fix</span>
+      </div>
+
+      <div class="post-share">
+        <span class="post-share-label">Share this article:</span>
+        <div class="social-share">
+          <a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
+          <a href="#" class="linkedin"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#" class="pinterest"><i class="fab fa-pinterest-p"></i></a>
+          <a href="#" class="whatsapp"><i class="fab fa-whatsapp"></i></a>
+        </div>
+      </div>
+
+      <div class="related-posts">
+        <h2>Related Articles</h2>
+        <div class="blog-grid" style="grid-template-columns:repeat(3,1fr);">
+          <div class="card">
+            <div class="card-image">
+              <img src="https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=300&h=180&fit=crop" alt="Related">
+            </div>
+            <div class="card-content" style="padding:16px;">
+              <h3 class="card-title" style="font-size:0.9375rem;">Epson L3150 WiFi Connection Fix</h3>
+              <p class="card-excerpt" style="font-size:0.8125rem;">Resolve wireless printing issues...</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-image">
+              <img src="https://images.unsplash.com/photo-1589652717521-10c0d092dea9?w=300&h=180&fit=crop" alt="Related">
+            </div>
+            <div class="card-content" style="padding:16px;">
+              <h3 class="card-title" style="font-size:0.9375rem;">Canon G2010 Driver Install Guide</h3>
+              <p class="card-excerpt" style="font-size:0.8125rem;">Step-by-step driver installation...</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-image">
+              <img src="https://images.unsplash.com/photo-1569091791842-7cfb64e04797?w=300&h=180&fit=crop" alt="Related">
+            </div>
+            <div class="card-content" style="padding:16px;">
+              <h3 class="card-title" style="font-size:0.9375rem;">Windows Print Spooler Fix</h3>
+              <p class="card-excerpt" style="font-size:0.8125rem;">Fix the notorious spooler error...</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+    <aside class="post-sidebar">
+      <div class="widget">
+        <div class="widget-title"><i class="fas fa-user"></i> About the Author</div>
+        <div style="text-align:center;padding:16px 0;">
+          <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=80&h=80&fit=crop" alt="Author" style="width:80px;height:80px;border-radius:50%;margin:0 auto 12px;object-fit:cover;">
+          <h4 style="margin-bottom:4px;">James Wilson</h4>
+          <p style="font-size:0.8125rem;color:var(--gray-500);">Printer technician with 12+ years experience. Specializes in Epson and Canon troubleshooting.</p>
+        </div>
+      </div>
+      <div class="ad-placeholder" style="margin:0 0 24px 0;">
+        <span>Ad Space</span>
+        300x250 AdSense
+      </div>
+      <div class="widget">
+        <div class="widget-title"><i class="fas fa-fire"></i> Trending Now</div>
+        <ul class="widget-list">
+          <li><a href="#"><img src="https://images.unsplash.com/photo-1612815154858-60aa4c43e64e?w=100&h=100&fit=crop" alt=""><div class="post-info"><h4>Epson L3110 Service Required Fix</h4><span>4.2K views</span></div></a></li>
+          <li><a href="#"><img src="https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=100&h=100&fit=crop" alt=""><div class="post-info"><h4>HP Printer Offline Fix</h4><span>3.8K views</span></div></a></li>
+          <li><a href="#"><img src="https://images.unsplash.com/photo-1589652717521-10c0d092dea9?w=100&h=100&fit=crop" alt=""><div class="post-info"><h4>Canon Waste Ink Reset</h4><span>3.1K views</span></div></a></li>
+        </ul>
+      </div>
+      <div class="widget">
+        <div class="widget-title"><i class="fas fa-folder"></i> Categories</div>
+        <ul class="widget-list">
+          <li><a href="#"><i class="fas fa-wrench" style="color:var(--primary);"></i> Epson Resetters (86)</a></li>
+          <li><a href="#"><i class="fas fa-download" style="color:var(--primary);"></i> Printer Drivers (234)</a></li>
+          <li><a href="#"><i class="fas fa-bug" style="color:var(--primary);"></i> Error Fixes (156)</a></li>
+          <li><a href="#"><i class="fab fa-windows" style="color:var(--primary);"></i> Windows Fixes (78)</a></li>
+        </ul>
+      </div>
+    </aside>
+  </div>
+</div>
+</div>
+
+<!-- ==================== DOWNLOADS PAGE ==================== -->
+<div class="page" id="page-downloads">
+<div class="breadcrumb">
+  <div class="container">
+    <div class="breadcrumb-inner">
+      <a href="#" onclick="navigateTo('home'); return false;">Home</a>
+      <span class="separator"><i class="fas fa-chevron-right"></i></span>
+      <span class="current">Downloads</span>
+    </div>
+  </div>
+</div>
+<div class="container downloads-page">
+  <div class="downloads-header">
+    <h1>Software Downloads</h1>
+    <p>Trusted printer tools, resetters, drivers, and firmware updates</p>
+  </div>
+  <div class="downloads-filter">
+    <button class="filter-btn active">All</button>
+    <button class="filter-btn">Resetters</button>
+    <button class="filter-btn">Drivers</button>
+    <button class="filter-btn">Firmware</button>
+    <button class="filter-btn">Tools</button>
+    <button class="filter-btn">Utilities</button>
+  </div>
+  <div class="downloads-grid">
+    <div class="download-card">
+      <div class="download-card-header">
+        <div class="download-icon"><i class="fas fa-wrench"></i></div>
+        <div class="download-info">
+          <h3>Epson L3110 Resetter</h3>
+          <p>Adjustment Program v4.30</p>
+        </div>
+      </div>
+      <div class="download-meta">
+        <span>v4.30</span><span>8.4 MB</span><span>Windows</span><span>24.5K DL</span>
+      </div>
+      <div class="download-actions">
+        <button class="btn btn-primary btn-sm" onclick="showToast('Download started!')"><i class="fas fa-download"></i> Download</button>
+        <button class="btn btn-outline btn-sm"><i class="fas fa-info-circle"></i> Details</button>
+      </div>
+    </div>
+    <div class="download-card">
+      <div class="download-card-header">
+        <div class="download-icon"><i class="fas fa-print"></i></div>
+        <div class="download-info">
+          <h3>HP LaserJet P1102 Driver</h3>
+          <p>Full Feature Software</p>
+        </div>
+      </div>
+      <div class="download-meta">
+        <span>v5.0.1</span><span>45.2 MB</span><span>Win/Mac</span><span>18.2K DL</span>
+      </div>
+      <div class="download-actions">
+        <button class="btn btn-primary btn-sm" onclick="showToast('Download started!')"><i class="fas fa-download"></i> Download</button>
+        <button class="btn btn-outline btn-sm"><i class="fas fa-info-circle"></i> Details</button>
+      </div>
+    </div>
+    <div class="download-card">
+      <div class="download-card-header">
+        <div class="download-icon"><i class="fas fa-microchip"></i></div>
+        <div class="download-info">
+          <h3>Canon G3010 Firmware</h3>
+          <p>Latest Update Package</p>
+        </div>
+      </div>
+      <div class="download-meta">
+        <span>v2.1.4</span><span>12.8 MB</span><span>Windows</span><span>9.1K DL</span>
+      </div>
+      <div class="download-actions">
+        <button class="btn btn-primary btn-sm" onclick="showToast('Download started!')"><i class="fas fa-download"></i> Download</button>
+        <button class="btn btn-outline btn-sm"><i class="fas fa-info-circle"></i> Details</button>
+      </div>
+    </div>
+    <div class="download-card">
+      <div class="download-card-header">
+        <div class="download-icon"><i class="fas fa-wrench"></i></div>
+        <div class="download-info">
+          <h3>Epson L3150 Resetter</h3>
+          <p>Adjustment Program v4.50</p>
+        </div>
+      </div>
+      <div class="download-meta">
+        <span>v4.50</span><span>9.1 MB</span><span>Windows</span><span>15.3K DL</span>
+      </div>
+      <div class="download-actions">
+        <button class="btn btn-primary btn-sm" onclick="showToast('Download started!')"><i class="fas fa-download"></i> Download</button>
+        <button class="btn btn-outline btn-sm"><i class="fas fa-info-circle"></i> Details</button>
+      </div>
+    </div>
+    <div class="download-card">
+      <div class="download-card-header">
+        <div class="download-icon"><i class="fas fa-print"></i></div>
+        <div class="download-info">
+          <h3>Canon G2010 Driver</h3>
+          <p>Full Driver Package</p>
+        </div>
+      </div>
+      <div class="download-meta">
+        <span>v3.2.1</span><span>38.5 MB</span><span>Win/Mac</span><span>12.7K DL</span>
+      </div>
+      <div class="download-actions">
+        <button class="btn btn-primary btn-sm" onclick="showToast('Download started!')"><i class="fas fa-download"></i> Download</button>
+        <button class="btn btn-outline btn-sm"><i class="fas fa-info-circle"></i> Details</button>
+      </div>
+    </div>
+    <div class="download-card">
+      <div class="download-card-header">
+        <div class="download-icon"><i class="fas fa-tools"></i></div>
+        <div class="download-info">
+          <h3>Printer Diagnostic Tool</h3>
+          <p>Universal Printer Troubleshooter</p>
+        </div>
+      </div>
+      <div class="download-meta">
+        <span>v2.0</span><span>15.2 MB</span><span>Windows</span><span>8.4K DL</span>
+      </div>
+      <div class="download-actions">
+        <button class="btn btn-primary btn-sm" onclick="showToast('Download started!')"><i class="fas fa-download"></i> Download</button>
+        <button class="btn btn-outline btn-sm"><i class="fas fa-info-circle"></i> Details</button>
+      </div>
+    </div>
+  </div>
+  <div style="text-align:center;margin-top:40px;">
+    <button class="btn btn-outline btn-lg"><i class="fas fa-spinner"></i> Load More Downloads</button>
+  </div>
+</div>
+</div>
+
+<!-- ==================== CATEGORIES PAGE ==================== -->
+<div class="page" id="page-categories">
+<div class="breadcrumb">
+  <div class="container">
+    <div class="breadcrumb-inner">
+      <a href="#" onclick="navigateTo('home'); return false;">Home</a>
+      <span class="separator"><i class="fas fa-chevron-right"></i></span>
+      <span class="current">Categories</span>
+    </div>
+  </div>
+</div>
+<div class="container categories-page">
+  <div class="categories-page-header">
+    <h1>Browse Categories</h1>
+    <p>Explore our organized collection of printer solutions</p>
+  </div>
+  <div class="categories-page-grid">
+    <div class="category-page-card">
+      <div class="category-page-card-image">
+        <img src="https://images.unsplash.com/photo-1612815154858-60aa4c43e64e?w=400&h=225&fit=crop" alt="Epson Resetters">
+      </div>
+      <div class="category-page-card-content">
+        <h3>Epson Resetters</h3>
+        <p>Adjustment programs and waste ink pad reset tools for all Epson EcoTank and inkjet models.</p>
+        <span style="display:block;font-size:0.8125rem;color:var(--gray-500);margin-bottom:16px;">86 Tools Available</span>
+        <button class="btn btn-primary btn-sm" style="width:100%;"><i class="fas fa-arrow-right"></i> Explore</button>
+      </div>
+    </div>
+    <div class="category-page-card">
+      <div class="category-page-card-image">
+        <img src="https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=400&h=225&fit=crop" alt="Printer Drivers">
+      </div>
+      <div class="category-page-card-content">
+        <h3>Printer Drivers</h3>
+        <p>Official and compatible drivers for Epson, HP, Canon, Brother, and other major brands.</p>
+        <span style="display:block;font-size:0.8125rem;color:var(--gray-500);margin-bottom:16px;">234 Drivers Available</span>
+        <button class="btn btn-primary btn-sm" style="width:100%;"><i class="fas fa-arrow-right"></i> Explore</button>
+      </div>
+    </div>
+    <div class="category-page-card">
+      <div class="category-page-card-image">
+        <img src="https://images.unsplash.com/photo-1589652717521-10c0d092dea9?w=400&h=225&fit=crop" alt="Error Fixes">
+      </div>
+      <div class="category-page-card-content">
+        <h3>Printer Error Fixes</h3>
+        <p>Step-by-step solutions for common and advanced printer error codes and hardware issues.</p>
+        <span style="display:block;font-size:0.8125rem;color:var(--gray-500);margin-bottom:16px;">156 Fixes Available</span>
+        <button class="btn btn-primary btn-sm" style="width:100%;"><i class="fas fa-arrow-right"></i> Explore</button>
+      </div>
+    </div>
+    <div class="category-page-card">
+      <div class="category-page-card-image">
+        <img src="https://images.unsplash.com/photo-1569091791842-7cfb64e04797?w=400&h=225&fit=crop" alt="Windows Fixes">
+      </div>
+      <div class="category-page-card-content">
+        <h3>Windows Fixes</h3>
+        <p>Operating system level solutions for printer connectivity, spooler, and driver issues.</p>
+        <span style="display:block;font-size:0.8125rem;color:var(--gray-500);margin-bottom:16px;">78 Guides Available</span>
+        <button class="btn btn-primary btn-sm" style="width:100%;"><i class="fas fa-arrow-right"></i> Explore</button>
+      </div>
+    </div>
+    <div class="category-page-card">
+      <div class="category-page-card-image">
+        <img src="https://images.unsplash.com/photo-1612815154858-60aa4c43e64e?w=400&h=225&fit=crop" alt="Business Guides">
+      </div>
+      <div class="category-page-card-content">
+        <h3>Printing Business Guides</h3>
+        <p>Tutorials and resources for starting and growing a printing business from home or office.</p>
+        <span style="display:block;font-size:0.8125rem;color:var(--gray-500);margin-bottom:16px;">42 Guides Available</span>
+        <button class="btn btn-primary btn-sm" style="width:100%;"><i class="fas fa-arrow-right"></i> Explore</button>
+      </div>
+    </div>
+    <div class="category-page-card">
+      <div class="category-page-card-image">
+        <img src="https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=400&h=225&fit=crop" alt="Software Tools">
+      </div>
+      <div class="category-page-card-content">
+        <h3>Software Tools</h3>
+        <p>Diagnostic utilities, cleaning tools, and printer management software for all platforms.</p>
+        <span style="display:block;font-size:0.8125rem;color:var(--gray-500);margin-bottom:16px;">67 Tools Available</span>
+        <button class="btn btn-primary btn-sm" style="width:100%;"><i class="fas fa-arrow-right"></i> Explore</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+<!-- ==================== ABOUT PAGE ==================== -->
+<div class="page" id="page-about">
+<div class="breadcrumb">
+  <div class="container">
+    <div class="breadcrumb-inner">
+      <a href="#" onclick="navigateTo('home'); return false;">Home</a>
+      <span class="separator"><i class="fas fa-chevron-right"></i></span>
+      <span class="current">About Us</span>
+    </div>
+  </div>
+</div>
+<div class="container about-page">
+  <div class="about-hero">
+    <h1>About PrintFixLab</h1>
+    <p>Your trusted source for printer troubleshooting, driver downloads, and technical solutions since 2020. We help thousands of users fix their printers every day.</p>
+  </div>
+  <div class="about-grid">
+    <div class="about-card">
+      <div class="about-card-icon"><i class="fas fa-bullseye"></i></div>
+      <h3>Our Mission</h3>
+      <p>To make printer troubleshooting accessible to everyone. No technical background needed - just clear, step-by-step guides that actually work.</p>
+    </div>
+    <div class="about-card">
+      <div class="about-card-icon"><i class="fas fa-shield-alt"></i></div>
+      <h3>Trusted & Safe</h3>
+      <p>All downloads are scanned with multiple antivirus engines. We only host verified, tested software from reputable sources.</p>
+    </div>
+    <div class="about-card">
+      <div class="about-card-icon"><i class="fas fa-users"></i></div>
+      <h3>Community Driven</h3>
+      <p>Built by technicians and powered by user feedback. Our guides are continuously updated based on real-world testing and community input.</p>
+    </div>
+  </div>
+  <div class="section-header" style="margin-bottom:32px;">
+    <h2>Meet Our Team</h2>
+    <p>Expert technicians dedicated to solving your printer problems</p>
+  </div>
+  <div class="team-grid">
+    <div class="team-card">
+      <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=120&h=120&fit=crop" alt="James Wilson">
+      <h4>James Wilson</h4>
+      <span>Lead Technician</span>
+    </div>
+    <div class="team-card">
+      <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=120&h=120&fit=crop" alt="Mike Chen">
+      <h4>Mike Chen</h4>
+      <span>Software Engineer</span>
+    </div>
+    <div class="team-card">
+      <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=120&h=120&fit=crop" alt="Sarah Kim">
+      <h4>Sarah Kim</h4>
+      <span>Content Manager</span>
+    </div>
+    <div class="team-card">
+      <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=120&h=120&fit=crop" alt="David Park">
+      <h4>David Park</h4>
+      <span>Business Consultant</span>
+    </div>
+  </div>
+</div>
+</div>
+
+<!-- ==================== CONTACT PAGE ==================== -->
+<div class="page" id="page-contact">
+<div class="breadcrumb">
+  <div class="container">
+    <div class="breadcrumb-inner">
+      <a href="#" onclick="navigateTo('home'); return false;">Home</a>
+      <span class="separator"><i class="fas fa-chevron-right"></i></span>
+      <span class="current">Contact Us</span>
+    </div>
+  </div>
+</div>
+<div class="container contact-page">
+  <div class="contact-grid">
+    <div class="contact-info">
+      <h2>Get in Touch</h2>
+      <p>Have a question, suggestion, or need help with a printer issue? We are here to help.</p>
+      <div class="contact-item">
+        <div class="contact-item-icon"><i class="fas fa-envelope"></i></div>
+        <div class="contact-item-info">
+          <h4>Email Us</h4>
+          <p>support@printfixlab.com</p>
+        </div>
+      </div>
+      <div class="contact-item">
+        <div class="contact-item-icon"><i class="fab fa-youtube"></i></div>
+        <div class="contact-item-info">
+          <h4>YouTube Channel</h4>
+          <p>youtube.com/printfixlab</p>
+        </div>
+      </div>
+      <div class="contact-item">
+        <div class="contact-item-icon"><i class="fab fa-twitter"></i></div>
+        <div class="contact-item-info">
+          <h4>Twitter / X</h4>
+          <p>@printfixlab</p>
+        </div>
+      </div>
+      <div class="contact-item">
+        <div class="contact-item-icon"><i class="fas fa-clock"></i></div>
+        <div class="contact-item-info">
+          <h4>Response Time</h4>
+          <p>Usually within 24 hours</p>
+        </div>
+      </div>
+    </div>
+    <div class="contact-form">
+      <h3>Send a Message</h3>
+      <div class="form-group">
+        <label>Your Name</label>
+        <input type="text" placeholder="John Doe">
+      </div>
+      <div class="form-group">
+        <label>Email Address</label>
+        <input type="email" placeholder="john@example.com">
+      </div>
+      <div class="form-group">
+        <label>Subject</label>
+        <select>
+          <option>General Inquiry</option>
+          <option>Technical Support</option>
+          <option>Download Issue</option>
+          <option>Business Partnership</option>
+          <option>Other</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label>Message</label>
+        <textarea placeholder="Describe your issue or question..."></textarea>
+      </div>
+      <button class="btn btn-primary btn-lg" style="width:100%;" onclick="showToast('Message sent successfully!')"><i class="fas fa-paper-plane"></i> Send Message</button>
+    </div>
+  </div>
+</div>
+</div>
+
+<!-- ==================== PRIVACY POLICY PAGE ==================== -->
+<div class="page" id="page-privacy">
+<div class="breadcrumb">
+  <div class="container">
+    <div class="breadcrumb-inner">
+      <a href="#" onclick="navigateTo('home'); return false;">Home</a>
+      <span class="separator"><i class="fas fa-chevron-right"></i></span>
+      <span class="current">Privacy Policy</span>
+    </div>
+  </div>
+</div>
+<div class="container legal-page">
+  <span class="last-updated"><i class="far fa-calendar"></i> Last Updated: May 27, 2026</span>
+  <h1>Privacy Policy</h1>
+  <p>At PrintFixLab, we take your privacy seriously. This Privacy Policy explains how we collect, use, and protect your personal information when you visit our website.</p>
+  <h2>Information We Collect</h2>
+  <p>We collect information that you voluntarily provide to us, such as when you subscribe to our newsletter, contact us, or download software. This may include your name, email address, and device information.</p>
+  <p>We also automatically collect certain information through cookies and similar technologies, including your IP address, browser type, operating system, and pages visited.</p>
+  <h2>How We Use Your Information</h2>
+  <ul>
+    <li>To provide and maintain our services</li>
+    <li>To send you newsletters and updates (if subscribed)</li>
+    <li>To respond to your inquiries and support requests</li>
+    <li>To analyze website usage and improve our content</li>
+    <li>To display relevant advertisements</li>
+  </ul>
+  <h2>Cookies and Tracking</h2>
+  <p>We use cookies to enhance your browsing experience, analyze site traffic, and serve personalized content. You can control cookie settings through your browser preferences.</p>
+  <h2>Third-Party Services</h2>
+  <p>We may use third-party services such as Google Analytics and advertising networks. These services have their own privacy policies and may collect data according to their terms.</p>
+  <h2>Data Security</h2>
+  <p>We implement appropriate security measures to protect your personal information. However, no method of transmission over the internet is 100% secure.</p>
+  <h2>Your Rights</h2>
+  <p>You have the right to access, correct, or delete your personal information. To exercise these rights, please contact us at support@printfixlab.com.</p>
+  <h2>Changes to This Policy</h2>
+  <p>We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new policy on this page.</p>
+  <h2>Contact Us</h2>
+  <p>If you have any questions about this Privacy Policy, please contact us at support@printfixlab.com.</p>
+</div>
+</div>
+
+<!-- ==================== DMCA PAGE ==================== -->
+<div class="page" id="page-dmca">
+<div class="breadcrumb">
+  <div class="container">
+    <div class="breadcrumb-inner">
+      <a href="#" onclick="navigateTo('home'); return false;">Home</a>
+      <span class="separator"><i class="fas fa-chevron-right"></i></span>
+      <span class="current">DMCA Policy</span>
+    </div>
+  </div>
+</div>
+<div class="container legal-page">
+  <span class="last-updated"><i class="far fa-calendar"></i> Last Updated: May 27, 2026</span>
+  <h1>DMCA Policy</h1>
+  <p>PrintFixLab respects the intellectual property rights of others and expects its users to do the same. In accordance with the Digital Millennium Copyright Act (DMCA), we have established the following policy.</p>
+  <h2>Reporting Copyright Infringement</h2>
+  <p>If you believe that your copyrighted work has been copied in a way that constitutes copyright infringement and is accessible on this site, please notify our designated copyright agent.</p>
+  <p>Your DMCA notice must include the following information:</p>
+  <ul>
+    <li>A physical or electronic signature of the copyright owner or authorized agent</li>
+    <li>Identification of the copyrighted work claimed to have been infringed</li>
+    <li>Identification of the material that is claimed to be infringing</li>
+    <li>Your contact information (address, telephone number, email)</li>
+    <li>A statement that you have a good faith belief that the use is not authorized</li>
+    <li>A statement that the information is accurate, under penalty of perjury</li>
+  </ul>
+  <h2>Counter-Notification</h2>
+  <p>If you believe that your material was removed or disabled by mistake or misidentification, you may submit a counter-notification containing:</p>
+  <ul>
+    <li>Your physical or electronic signature</li>
+    <li>Identification of the material that has been removed</li>
+    <li>Your contact information</li>
+    <li>A statement under penalty of perjury that you have a good faith belief the material was removed by mistake</li>
+    <li>Consent to jurisdiction of the federal court in your district</li>
+  </ul>
+  <h2>Contact Information</h2>
+  <p>DMCA Agent: support@printfixlab.com</p>
+  <p>We will respond to all DMCA notices in accordance with applicable law.</p>
+</div>
+</div>
+
+<!-- ==================== DISCLAIMER PAGE ==================== -->
+<div class="page" id="page-disclaimer">
+<div class="breadcrumb">
+  <div class="container">
+    <div class="breadcrumb-inner">
+      <a href="#" onclick="navigateTo('home'); return false;">Home</a>
+      <span class="separator"><i class="fas fa-chevron-right"></i></span>
+      <span class="current">Disclaimer</span>
+    </div>
+  </div>
+</div>
+<div class="container legal-page">
+  <span class="last-updated"><i class="far fa-calendar"></i> Last Updated: May 27, 2026</span>
+  <h1>Disclaimer</h1>
+  <p>The information provided on PrintFixLab is for general informational and educational purposes only. By using this website, you agree to the following terms:</p>
+  <h2>No Warranty</h2>
+  <p>All content, software, and downloads on this website are provided "as is" without any warranties of any kind, either express or implied. We do not guarantee that any specific fix, driver, or resetter will work for your particular device or situation.</p>
+  <h2>Use at Your Own Risk</h2>
+  <p>Using resetter tools, firmware updates, and other software downloaded from this site is done entirely at your own risk. We are not responsible for any damage to your printer, computer, or data that may result from following our guides or using our downloads.</p>
+  <h2>Third-Party Software</h2>
+  <p>Some tools and drivers hosted on this site are third-party software. While we scan all files for malware, we are not the developers of these tools and cannot guarantee their functionality or safety beyond our verification process.</p>
+  <h2>Accuracy of Information</h2>
+  <p>We make every effort to ensure the accuracy of our guides and tutorials. However, printer models, software versions, and operating systems change frequently. Always verify information with the official manufacturer before making changes to your device.</p>
+  <h2>Affiliate Disclosure</h2>
+  <p>PrintFixLab participates in affiliate marketing programs. Some links on this site may be affiliate links, meaning we may earn a commission if you make a purchase through those links. This does not affect the price you pay.</p>
+  <h2>External Links</h2>
+  <p>Our website may contain links to external sites. We are not responsible for the content, privacy practices, or availability of these external sites.</p>
+  <h2>Changes to This Disclaimer</h2>
+  <p>We reserve the right to modify this disclaimer at any time. Changes will be effective immediately upon posting.</p>
+  <h2>Contact</h2>
+  <p>If you have any questions about this disclaimer, please contact us at support@printfixlab.com.</p>
+</div>
+</div>
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="#" class="logo" onclick="navigateTo('home'); return false;">
+          <div class="logo-icon"></div>
+          <div class="logo-text" style="color:var(--white);">Print<span>Fix</span>Lab</div>
+        </a>
+        <p>Your trusted source for printer troubleshooting, driver downloads, resetter tools, and technical solutions. Fixing printers since 2020.</p>
+        <div class="footer-social">
+          <a href="#"><i class="fab fa-youtube"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
+      <div class="footer-column">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#" onclick="navigateTo('home'); return false;">Home</a></li>
+          <li><a href="#" onclick="navigateTo('blog'); return false;">Blog</a></li>
+          <li><a href="#" onclick="navigateTo('downloads'); return false;">Downloads</a></li>
+          <li><a href="#" onclick="navigateTo('categories'); return false;">Categories</a></li>
+          <li><a href="#" onclick="navigateTo('about'); return false;">About Us</a></li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h4>Resources</h4>
+        <ul>
+          <li><a href="#">Epson Resetters</a></li>
+          <li><a href="#">Printer Drivers</a></li>
+          <li><a href="#">Error Code Database</a></li>
+          <li><a href="#">Video Tutorials</a></li>
+          <li><a href="#">Printing Business</a></li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h4>Legal</h4>
+        <ul>
+          <li><a href="#" onclick="navigateTo('privacy'); return false;">Privacy Policy</a></li>
+          <li><a href="#" onclick="navigateTo('dmca'); return false;">DMCA Policy</a></li>
+          <li><a href="#" onclick="navigateTo('disclaimer'); return false;">Disclaimer</a></li>
+          <li><a href="#" onclick="navigateTo('contact'); return false;">Contact Us</a></li>
+          <li><a href="#">Sitemap</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div>&copy; 2026 PrintFixLab. All rights reserved.</div>
+      <div class="footer-bottom-links">
+        <a href="#" onclick="navigateTo('privacy'); return false;">Privacy</a>
+        <a href="#" onclick="navigateTo('dmca'); return false;">DMCA</a>
+        <a href="#" onclick="navigateTo('disclaimer'); return false;">Disclaimer</a>
+        <a href="#">Sitemap</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+// Navigation
+function navigateTo(pageId) {
+  document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
+  const target = document.getElementById('page-' + pageId);
+  if (target) {
+    target.classList.add('active');
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+}
+
+// Search
+function openSearch() {
+  document.getElementById('searchOverlay').classList.add('active');
+  document.getElementById('searchInput').focus();
+}
+function closeSearch() {
+  document.getElementById('searchOverlay').classList.remove('active');
+}
+function performSearch() {
+  const query = document.getElementById('searchInput').value;
+  if (query) {
+    showToast('Searching for: ' + query);
+    closeSearch();
+  }
+}
+function heroSearch() {
+  const query = document.getElementById('heroSearchInput').value;
+  if (query) {
+    showToast('Searching for: ' + query);
+    navigateTo('blog');
+  }
+}
+
+// Mobile Menu
+function openMobileMenu() {
+  document.getElementById('mobileMenu').classList.add('active');
+  document.getElementById('mobileMenuOverlay').classList.add('active');
+}
+function closeMobileMenu() {
+  document.getElementById('mobileMenu').classList.remove('active');
+  document.getElementById('mobileMenuOverlay').classList.remove('active');
+}
+
+// FAQ Accordion
+function toggleFaq(element) {
+  const item = element.parentElement;
+  const isActive = item.classList.contains('active');
+  document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('active'));
+  if (!isActive) {
+    item.classList.add('active');
+  }
+}
+
+// Toast
+function showToast(message) {
+  const toast = document.getElementById('toast');
+  document.getElementById('toast-message').textContent = message;
+  toast.classList.add('show');
+  setTimeout(() => toast.classList.remove('show'), 3000);
+}
+
+// Newsletter
+function subscribeNewsletter() {
+  const email = document.getElementById('newsletterEmail').value;
+  if (email && email.includes('@')) {
+    showToast('Thanks for subscribing! Check your inbox.');
+    document.getElementById('newsletterEmail').value = '';
+  } else {
+    showToast('Please enter a valid email address.');
+  }
+}
+
+// Navbar scroll effect
+window.addEventListener('scroll', () => {
+  const navbar = document.getElementById('navbar');
+  if (window.scrollY > 50) {
+    navbar.classList.add('scrolled');
+  } else {
+    navbar.classList.remove('scrolled');
+  }
+});
+
+// Fade in animation on scroll
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('visible');
+    }
+  });
+}, { threshold: 0.1 });
+
+document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+
+// Enter key for search
+document.getElementById('searchInput').addEventListener('keypress', function(e) {
+  if (e.key === 'Enter') performSearch();
+});
+document.getElementById('heroSearchInput').addEventListener('keypress', function(e) {
+  if (e.key === 'Enter') heroSearch();
+});
+document.getElementById('newsletterEmail').addEventListener('keypress', function(e) {
+  if (e.key === 'Enter') subscribeNewsletter();
+});
+
+// Filter buttons
+document.querySelectorAll('.filter-btn').forEach(btn => {
+  btn.addEventListener('click', function() {
+    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+    this.classList.add('active');
+  });
+});
+</script>
+</body>
+</html>
